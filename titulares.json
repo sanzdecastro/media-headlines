@@ -31,12 +31,32 @@
   },
   {
     "media": "20minutos",
-    "headline": "Sanidad confirma tres contactos en España y anuncia la llegada del Hondius esta madrugada: los 14 españoles serán los primeros en abandonarlo",
+    "headline": "Cuenta atrás para la llegada esta madrugada del Hondius a Tenerife: los 14 españoles serán los primeros en abandonarlo",
     "mediaUrl": "https://www.20minutos.es"
   },
   {
     "media": "La Vanguardia",
-    "headline": "La primera PCR de la paciente ingresada en Alicante da negativo en hantavirus",
+    "headline": "La primera PCR de la paciente ingresada en Alicante, negativo en hantavirus",
     "mediaUrl": "https://www.lavanguardia.com"
+  },
+  {
+    "media": "El Diario",
+    "headline": "La Justicia ratifica la imposición de una cuarentena a los pasajeros del crucero",
+    "mediaUrl": "https://www.eldiario.es"
+  },
+  {
+    "media": "El Periódico",
+    "headline": "¿Qué tiene que aclarar la sentencia del Supremo sobre Ábalos, Koldo y Aldama?",
+    "mediaUrl": "https://www.elperiodico.com/es/"
+  },
+  {
+    "media": "Público",
+    "headline": "El Hondius desembarcará primero a los españoles y decenas de personas serán repatriadas",
+    "mediaUrl": "https://www.publico.es"
+  },
+  {
+    "media": "Infolibre",
+    "headline": "Maribel Verdú estrena 'Bajo tus pies': \"Hay gente que convive en sociedad, pero debería vivir sola en la selva\"",
+    "mediaUrl": "https://www.infolibre.es"
   }
 ]
