@@ -1,0 +1,10 @@
+[
+  { "nombre": "El Español",      "url": "https://www.elespanol.com",      "mediaUrl": "https://www.elespanol.com" },
+  { "nombre": "El Mundo",        "url": "https://www.elmundo.es",          "mediaUrl": "https://www.elmundo.es" },
+  { "nombre": "El País",         "rss": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada", "mediaUrl": "https://elpais.com" },
+  { "nombre": "ABC",             "url": "https://www.abc.es",              "mediaUrl": "https://www.abc.es" },
+  { "nombre": "La Razón",        "url": "https://www.larazon.es",          "mediaUrl": "https://www.larazon.es" },
+  { "nombre": "El Confidencial", "url": "https://www.elconfidencial.com",  "mediaUrl": "https://www.elconfidencial.com" },
+  { "nombre": "20minutos",       "url": "https://www.20minutos.es",        "mediaUrl": "https://www.20minutos.es" },
+  { "nombre": "La Vanguardia",   "url": "https://www.lavanguardia.com",    "mediaUrl": "https://www.lavanguardia.com" }
+]
