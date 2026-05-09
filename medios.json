@@ -6,5 +6,9 @@
   { "nombre": "La Razón",        "url": "https://www.larazon.es",          "mediaUrl": "https://www.larazon.es" },
   { "nombre": "El Confidencial", "url": "https://www.elconfidencial.com",  "mediaUrl": "https://www.elconfidencial.com" },
   { "nombre": "20minutos",       "url": "https://www.20minutos.es",        "mediaUrl": "https://www.20minutos.es" },
-  { "nombre": "La Vanguardia",   "url": "https://www.lavanguardia.com",    "mediaUrl": "https://www.lavanguardia.com" }
+  { "nombre": "La Vanguardia",   "url": "https://www.lavanguardia.com",    "mediaUrl": "https://www.lavanguardia.com" },
+  { "nombre": "El Diario",       "url": "https://www.eldiario.es",         "mediaUrl": "https://www.eldiario.es" },
+  { "nombre": "El Periódico",    "url": "https://www.elperiodico.com/es/", "mediaUrl": "https://www.elperiodico.com/es/" },
+  { "nombre": "Público",         "url": "https://www.publico.es",          "mediaUrl": "https://www.publico.es" },
+  { "nombre": "Infolibre",       "url": "https://www.infolibre.es",        "mediaUrl": "https://www.infolibre.es" }
 ]
