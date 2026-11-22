@@ -1,7 +1,7 @@
 """
 Elige con Claude el titular principal de cada medio entre sus candidatos y lo
-cataloga: temática (lista fija), historia (qué medios cuentan la misma noticia)
-y enfoque (desde qué ángulo la cuenta cada medio).
+cataloga: temática (lista fija) e historia (qué medios cuentan la misma noticia).
+Solo agrupa por tema; no interpreta ni compara cómo lo cuenta cada medio.
 
 Una sola llamada con todos los medios, porque para agrupar historias hay que
 verlos juntos. La IA devuelve el ÍNDICE del candidato, no texto: el titular
@@ -47,11 +47,8 @@ duda, pesa más la letra más grande y la posición más alta.
 2. `tematica`: una de la lista cerrada.
 3. `historia_id`: los medios cuyo titular principal trata el mismo hecho o la misma noticia comparten \
 historia. Si el titular no coincide con el de ningún otro medio, tiene historia propia.
-4. `enfoque`: en una frase corta y neutral, en qué pone el foco ese medio frente a los demás. No \
-resumas ni parafrasees su titular. Si la historia la comparten varios medios, di qué dato, protagonista \
-o lectura elige este y en qué se diferencia de los otros (por ejemplo: «Pone el foco en la mayoría de \
-la derecha; El País y La Vanguardia, en que el PSOE se acerca»). Si la historia es solo suya, di qué \
-tema elige destacar mientras los demás abren con otra cosa. Sin juzgar al medio.
+
+No interpretes ni compares cómo cuenta la noticia cada medio: solo clasifica de qué tema habla.
 
 En `historias`, cada historia usada lleva un `id` corto en minúsculas con guiones y una `etiqueta` \
 breve y neutral en castellano que describa el hecho (no el titular de un medio concreto).
@@ -72,9 +69,8 @@ def _esquema(nombres):
                         "candidato": {"type": "integer"},
                         "tematica": {"type": "string", "enum": TEMATICAS},
                         "historia_id": {"type": "string"},
-                        "enfoque": {"type": "string"},
                     },
-                    "required": ["media", "candidato", "tematica", "historia_id", "enfoque"],
+                    "required": ["media", "candidato", "tematica", "historia_id"],
                     "additionalProperties": False,
                 },
             },
@@ -121,13 +117,12 @@ def _validar(datos, candidatos):
             "candidato": idx,
             "tematica": m["tematica"],
             "historia": {"id": hid, "etiqueta": historias.get(hid, "")},
-            "enfoque": m["enfoque"].strip(),
         }
     return resultado
 
 
 def clasificar(candidatos):
-    """{ nombre: {candidato, tematica, historia, enfoque} } para los medios que pudo clasificar."""
+    """{ nombre: {candidato, tematica, historia} } para los medios que pudo clasificar."""
     if not candidatos:
         return {}
     if not os.environ.get("ANTHROPIC_API_KEY"):

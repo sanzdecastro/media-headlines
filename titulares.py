@@ -6,7 +6,7 @@ Extrae el titular principal de los medios digitales españoles de medios.json.
    visibles de la parte alta, ordenados por tamaño de letra). El País bloquea
    headless a nivel de red (Akamai), así que sus candidatos salen de su RSS.
 2. clasificador.py pide a Claude que elija el titular principal de cada medio
-   y lo catalogue (temática, historia compartida entre medios y enfoque).
+   y lo catalogue (temática e historia compartida entre medios).
    Sin API key o si la llamada falla, se usa el primer candidato (heurística).
 
 Genera titulares.json (lista de { media, headline, mediaUrl, ... }) y una copia
@@ -175,7 +175,6 @@ def main():
                 headline=validos[nombre][c["candidato"]]["text"],
                 tematica=c["tematica"],
                 historia=c["historia"],
-                enfoque=c["enfoque"],
                 clasificado=True,
             )
         else:
