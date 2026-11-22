@@ -1,62 +1,146 @@
 [
   {
     "media": "El Español",
+    "mediaUrl": "https://www.elespanol.com",
     "headline": "Penúltimo sondeo: el PP aventaja al PSOE en 3 puntos y 20 escaños con la oposición en 197",
-    "mediaUrl": "https://www.elespanol.com"
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "sondeos-29n",
+      "etiqueta": "Encuestas a una semana de las elecciones del 29N"
+    },
+    "enfoque": "Destaca un sondeo que da al PP ventaja de 3 puntos y 20 escaños sobre el PSOE.",
+    "clasificado": true
   },
   {
     "media": "El Mundo",
+    "mediaUrl": "https://www.elmundo.es",
     "headline": "PP y PSOE ganan apoyos y la derecha ancla su ventaja a una semana de votar",
-    "mediaUrl": "https://www.elmundo.es"
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "sondeos-29n",
+      "etiqueta": "Encuestas a una semana de las elecciones del 29N"
+    },
+    "enfoque": "Subraya que la derecha ancla su ventaja a una semana de las elecciones.",
+    "clasificado": true
   },
   {
     "media": "El País",
-    "headline": "¿Se ha movido el voto útil? Las opciones de izquierda y derecha en cada provincia con las últimas encuestas",
-    "mediaUrl": "https://elpais.com"
+    "mediaUrl": "https://elpais.com",
+    "headline": "El PSOE acaricia el empate con el PP, según el ‘tracking’ de 40dB.",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "sondeos-29n",
+      "etiqueta": "Encuestas a una semana de las elecciones del 29N"
+    },
+    "enfoque": "Señala que el PSOE se acerca al empate con el PP según un tracking de 40dB.",
+    "clasificado": true
   },
   {
     "media": "ABC",
+    "mediaUrl": "https://www.abc.es",
     "headline": "La derecha mantiene una holgada mayoría de 194 escaños a una semana del 29N",
-    "mediaUrl": "https://www.abc.es"
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "sondeos-29n",
+      "etiqueta": "Encuestas a una semana de las elecciones del 29N"
+    },
+    "enfoque": "Resalta la holgada mayoría de 194 escaños de la derecha a una semana del 29N.",
+    "clasificado": true
   },
   {
     "media": "La Razón",
+    "mediaUrl": "https://www.larazon.es",
     "headline": "Lleno de Feijóo en Murcia: el líder del PP llama a votar con \"esperanza\" para \"recuperar\" España",
-    "mediaUrl": "https://www.larazon.es"
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "mitin-feijoo-murcia",
+      "etiqueta": "Mitin de Feijóo en Murcia"
+    },
+    "enfoque": "Cuenta el lleno de Feijóo en Murcia y su llamada a votar con esperanza.",
+    "clasificado": true
   },
   {
     "media": "El Confidencial",
+    "mediaUrl": "https://www.elconfidencial.com",
     "headline": "Feijóo evitará confrontar con Abascal en el debate a cuatro y se centrará en 'rematar' a Sánchez",
-    "mediaUrl": "https://www.elconfidencial.com"
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "debate-feijoo-estrategia",
+      "etiqueta": "Estrategia de Feijóo ante el debate a cuatro"
+    },
+    "enfoque": "Avanza que Feijóo evitará confrontar con Abascal en el debate y se centrará en Sánchez.",
+    "clasificado": true
   },
   {
     "media": "20minutos",
+    "mediaUrl": "https://www.20minutos.es",
     "headline": "Sánchez apela a la \"remontada\" y pide poner \"todo al rojo\": \"Nos queda una semana\"",
-    "mediaUrl": "https://www.20minutos.es"
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "sanchez-remontada",
+      "etiqueta": "Sánchez llama a la remontada en la última semana de campaña"
+    },
+    "enfoque": "Recoge la apelación de Sánchez a la remontada y a movilizarse en la última semana.",
+    "clasificado": true
   },
   {
     "media": "La Vanguardia",
+    "mediaUrl": "https://www.lavanguardia.com",
     "headline": "La derecha suma mayoría absoluta mientras el PSOE se acerca al PP",
-    "mediaUrl": "https://www.lavanguardia.com"
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "sondeos-29n",
+      "etiqueta": "Encuestas a una semana de las elecciones del 29N"
+    },
+    "enfoque": "Destaca que la derecha suma mayoría absoluta mientras el PSOE se acerca al PP.",
+    "clasificado": true
   },
   {
     "media": "El Diario",
+    "mediaUrl": "https://www.eldiario.es",
     "headline": "Sánchez desafía a PP y Vox tras declararlo persona non grata en Murcia: “El 29N se decide entre buena política o mala educación”",
-    "mediaUrl": "https://www.eldiario.es"
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "sanchez-remontada",
+      "etiqueta": "Sánchez llama a la remontada en la última semana de campaña"
+    },
+    "enfoque": "Presenta el desafío de Sánchez a PP y Vox tras ser declarado persona non grata en Murcia.",
+    "clasificado": true
   },
   {
     "media": "El Periódico",
-    "headline": "Ingenieros y empresas piden incluir \"trasvases flexibles\" frente a sequías en la futura ley catalana del agua",
-    "mediaUrl": "https://www.elperiodico.com/es/"
+    "mediaUrl": "https://www.elperiodico.com/es/",
+    "headline": "Inquietud en Lotte por el retraso en los permisos para construir su fábrica de Mont-roig del Camp: \"No lo esperábamos\"",
+    "tematica": "Economía",
+    "historia": {
+      "id": "lotte-mont-roig",
+      "etiqueta": "Retraso de permisos para la fábrica de Lotte en Mont-roig"
+    },
+    "enfoque": "Cuenta la inquietud de Lotte por el retraso en los permisos de su fábrica en Mont-roig.",
+    "clasificado": true
   },
   {
     "media": "Público",
-    "headline": "Sánchez vaticina \"una participación histórica de la España progresista\" y reivindica la \"buena política frente a la mala educación\"",
-    "mediaUrl": "https://www.publico.es"
+    "mediaUrl": "https://www.publico.es",
+    "headline": "Sánchez: \"Siempre he evitado el estilo matonista de Feijóo\"",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "sanchez-estilo-feijoo",
+      "etiqueta": "Sánchez critica el estilo de Feijóo"
+    },
+    "enfoque": "Recoge la crítica de Sánchez al estilo matonista de Feijóo.",
+    "clasificado": true
   },
   {
     "media": "Infolibre",
+    "mediaUrl": "https://www.infolibre.es",
     "headline": "Vivir con 900 euros, pasar frío y cobrar el mismo bono social que la familia de Abascal",
-    "mediaUrl": "https://www.infolibre.es"
+    "tematica": "Sociedad",
+    "historia": {
+      "id": "bono-social-pobreza",
+      "etiqueta": "Bono social y pobreza energética"
+    },
+    "enfoque": "Contrasta la vida con 900 euros y frío con el bono social cobrado por la familia de Abascal.",
+    "clasificado": true
   }
 ]
