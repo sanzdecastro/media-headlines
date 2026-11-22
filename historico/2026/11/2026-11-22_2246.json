@@ -1,0 +1,146 @@
+[
+  {
+    "media": "El Español",
+    "mediaUrl": "https://www.elespanol.com",
+    "headline": "Penúltimo sondeo: el PP aventaja al PSOE en 3 puntos y 20 escaños con la oposición en 197",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "sondeos-29n",
+      "etiqueta": "Encuestas a una semana del 29-N"
+    },
+    "enfoque": "Destaca la ventaja del PP sobre el PSOE en puntos y escaños; otros subrayan la mayoría de la derecha o el acercamiento del PSOE.",
+    "clasificado": true
+  },
+  {
+    "media": "El Mundo",
+    "mediaUrl": "https://www.elmundo.es",
+    "headline": "PP y PSOE ganan apoyos y la derecha ancla su ventaja a una semana de votar",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "sondeos-29n",
+      "etiqueta": "Encuestas a una semana del 29-N"
+    },
+    "enfoque": "Pone el foco en que PP y PSOE ganan apoyos y la derecha ancla su ventaja; El País y El Diario, en que el PSOE se acerca.",
+    "clasificado": true
+  },
+  {
+    "media": "El País",
+    "mediaUrl": "https://elpais.com",
+    "headline": "El PSOE acaricia el empate con el PP, según el ‘tracking’ de 40dB.",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "sondeos-29n",
+      "etiqueta": "Encuestas a una semana del 29-N"
+    },
+    "enfoque": "Destaca que el PSOE acaricia el empate con el PP según el tracking de 40dB; otros subrayan la ventaja de la derecha.",
+    "clasificado": true
+  },
+  {
+    "media": "ABC",
+    "mediaUrl": "https://www.abc.es",
+    "headline": "La derecha mantiene una holgada mayoría de 194 escaños a una semana del 29N",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "sondeos-29n",
+      "etiqueta": "Encuestas a una semana del 29-N"
+    },
+    "enfoque": "Subraya la holgada mayoría de la derecha con 194 escaños; El País y El Diario, el acercamiento del PSOE.",
+    "clasificado": true
+  },
+  {
+    "media": "La Razón",
+    "mediaUrl": "https://www.larazon.es",
+    "headline": "Lleno de Feijóo en Murcia: el líder del PP llama a votar con \"esperanza\" para \"recuperar\" España",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "mitin-feijoo-murcia",
+      "etiqueta": "Mitin de Feijóo en Murcia"
+    },
+    "enfoque": "Abre con el lleno del mitin de Feijóo en Murcia y su llamada a votar con esperanza; otros abren con encuestas o con Sánchez.",
+    "clasificado": true
+  },
+  {
+    "media": "El Confidencial",
+    "mediaUrl": "https://www.elconfidencial.com",
+    "headline": "Feijóo evitará confrontar con Abascal en el debate a cuatro y se centrará en 'rematar' a Sánchez",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "estrategia-debate",
+      "etiqueta": "Estrategia de Feijóo para el debate a cuatro"
+    },
+    "enfoque": "Se centra en la estrategia de Feijóo en el debate a cuatro, evitando confrontar con Abascal; los demás abren con encuestas o mítines.",
+    "clasificado": true
+  },
+  {
+    "media": "20minutos",
+    "mediaUrl": "https://www.20minutos.es",
+    "headline": "Sánchez apela a la \"remontada\" y pide poner \"todo al rojo\": \"Nos queda una semana\"",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "remontada-sanchez",
+      "etiqueta": "Sánchez pide remontada en la última semana"
+    },
+    "enfoque": "Pone el foco en la petición de Sánchez de remontada con una semana por delante; La Vanguardia comparte con la mayoría absoluta de la derecha.",
+    "clasificado": true
+  },
+  {
+    "media": "La Vanguardia",
+    "mediaUrl": "https://www.lavanguardia.com",
+    "headline": "La derecha suma mayoría absoluta mientras el PSOE se acerca al PP",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "sondeos-29n",
+      "etiqueta": "Encuestas a una semana del 29-N"
+    },
+    "enfoque": "Une la mayoría absoluta de la derecha con el acercamiento del PSOE al PP.",
+    "clasificado": true
+  },
+  {
+    "media": "El Diario",
+    "mediaUrl": "https://www.eldiario.es",
+    "headline": "Sánchez desafía a PP y Vox tras declararlo persona non grata en Murcia: “El 29N se decide entre buena política o mala educación”",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "sanchez-murcia",
+      "etiqueta": "Sánchez responde a PP y Vox en Murcia"
+    },
+    "enfoque": "Destaca el desafío de Sánchez a PP y Vox en Murcia; otros abren con encuestas o con Feijóo.",
+    "clasificado": true
+  },
+  {
+    "media": "El Periódico",
+    "mediaUrl": "https://www.elperiodico.com/es/",
+    "headline": "Alcaraz, coloso y maestro, ajusticia a Zverev para ganar las ATP Finals y volver a reescribir la historia",
+    "tematica": "Deportes",
+    "historia": {
+      "id": "alcaraz-atp-finals",
+      "etiqueta": "Alcaraz gana las ATP Finals"
+    },
+    "enfoque": "Destaca la victoria de Alcaraz como hecho histórico; su portada abre con asuntos catalanes y no con la campaña.",
+    "clasificado": true
+  },
+  {
+    "media": "Público",
+    "mediaUrl": "https://www.publico.es",
+    "headline": "Sánchez: \"Siempre he evitado el estilo matonista de Feijóo\"",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "sanchez-estilo-feijoo",
+      "etiqueta": "Sánchez critica el estilo de Feijóo"
+    },
+    "enfoque": "Elige la frase de Sánchez contra el estilo matonista de Feijóo; otros abren con encuestas o mítines.",
+    "clasificado": true
+  },
+  {
+    "media": "Infolibre",
+    "mediaUrl": "https://www.infolibre.es",
+    "headline": "Vivir con 900 euros, pasar frío y cobrar el mismo bono social que la familia de Abascal",
+    "tematica": "Sociedad",
+    "historia": {
+      "id": "bono-social",
+      "etiqueta": "Bono social y precariedad energética"
+    },
+    "enfoque": "Abre con la precariedad energética y el bono social frente a la campaña, mientras los demás abren con política electoral.",
+    "clasificado": true
+  }
+]
