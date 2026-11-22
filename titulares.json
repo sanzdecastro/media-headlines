@@ -6,7 +6,7 @@
     "tematica": "Política nacional",
     "historia": {
       "id": "encuestas-29n",
-      "etiqueta": "Encuestas a una semana de las elecciones del 29-N"
+      "etiqueta": "Sondeos a una semana de las elecciones del 29N"
     },
     "clasificado": true
   },
@@ -17,7 +17,7 @@
     "tematica": "Política nacional",
     "historia": {
       "id": "encuestas-29n",
-      "etiqueta": "Encuestas a una semana de las elecciones del 29-N"
+      "etiqueta": "Sondeos a una semana de las elecciones del 29N"
     },
     "clasificado": true
   },
@@ -28,7 +28,7 @@
     "tematica": "Política nacional",
     "historia": {
       "id": "encuestas-29n",
-      "etiqueta": "Encuestas a una semana de las elecciones del 29-N"
+      "etiqueta": "Sondeos a una semana de las elecciones del 29N"
     },
     "clasificado": true
   },
@@ -39,7 +39,7 @@
     "tematica": "Política nacional",
     "historia": {
       "id": "encuestas-29n",
-      "etiqueta": "Encuestas a una semana de las elecciones del 29-N"
+      "etiqueta": "Sondeos a una semana de las elecciones del 29N"
     },
     "clasificado": true
   },
@@ -61,18 +61,18 @@
     "tematica": "Política nacional",
     "historia": {
       "id": "feijoo-debate-cuatro",
-      "etiqueta": "Estrategia de Feijóo para el debate a cuatro"
+      "etiqueta": "Estrategia de Feijóo en el debate a cuatro"
     },
     "clasificado": true
   },
   {
     "media": "20minutos",
     "mediaUrl": "https://www.20minutos.es",
-    "headline": "Sánchez apela a la \"remontada\" y pide poner \"todo al rojo\": \"Nos queda una semana\"",
+    "headline": "Pedro Sánchez, sobre las causas judiciales contra su mujer y su hermano: \"No tengo más remedio que confiar en la justicia\"",
     "tematica": "Política nacional",
     "historia": {
-      "id": "sanchez-remontada",
-      "etiqueta": "Sánchez pide la remontada en la última semana de campaña"
+      "id": "sanchez-causas-judiciales",
+      "etiqueta": "Sánchez sobre las causas judiciales de su entorno"
     },
     "clasificado": true
   },
@@ -83,7 +83,7 @@
     "tematica": "Política nacional",
     "historia": {
       "id": "encuestas-29n",
-      "etiqueta": "Encuestas a una semana de las elecciones del 29-N"
+      "etiqueta": "Sondeos a una semana de las elecciones del 29N"
     },
     "clasificado": true
   },
@@ -94,7 +94,7 @@
     "tematica": "Política nacional",
     "historia": {
       "id": "sanchez-murcia",
-      "etiqueta": "Sánchez en Murcia y la campaña del 29-N"
+      "etiqueta": "Sánchez en Murcia y cierre de campaña"
     },
     "clasificado": true
   },
@@ -105,7 +105,7 @@
     "tematica": "Economía",
     "historia": {
       "id": "lotte-mont-roig",
-      "etiqueta": "Retraso de permisos para la fábrica de Lotte en Mont-roig del Camp"
+      "etiqueta": "Retraso de permisos para la fábrica de Lotte en Mont-roig"
     },
     "clasificado": true
   },
@@ -126,8 +126,8 @@
     "headline": "Vivir con 900 euros, pasar frío y cobrar el mismo bono social que la familia de Abascal",
     "tematica": "Sociedad",
     "historia": {
-      "id": "bono-social-vivir-900",
-      "etiqueta": "Pobreza energética y bono social"
+      "id": "bono-social-pobreza",
+      "etiqueta": "Bono social y pobreza energética"
     },
     "clasificado": true
   }
