@@ -47,8 +47,11 @@ duda, pesa más la letra más grande y la posición más alta.
 2. `tematica`: una de la lista cerrada.
 3. `historia_id`: los medios cuyo titular principal trata el mismo hecho o la misma noticia comparten \
 historia. Si el titular no coincide con el de ningún otro medio, tiene historia propia.
-4. `enfoque`: en una frase corta y neutral, el ángulo desde el que ese medio cuenta la noticia, sin \
-juzgar al medio.
+4. `enfoque`: en una frase corta y neutral, en qué pone el foco ese medio frente a los demás. No \
+resumas ni parafrasees su titular. Si la historia la comparten varios medios, di qué dato, protagonista \
+o lectura elige este y en qué se diferencia de los otros (por ejemplo: «Pone el foco en la mayoría de \
+la derecha; El País y La Vanguardia, en que el PSOE se acerca»). Si la historia es solo suya, di qué \
+tema elige destacar mientras los demás abren con otra cosa. Sin juzgar al medio.
 
 En `historias`, cada historia usada lleva un `id` corto en minúsculas con guiones y una `etiqueta` \
 breve y neutral en castellano que describa el hecho (no el titular de un medio concreto).
