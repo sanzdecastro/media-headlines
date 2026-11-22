@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Extrae el titular principal de los 8 medios digitales españoles más visitados (OJD).
-Genera titulares.json con la estructura { media, title, mediaUrl }.
+Extrae el titular principal de los medios digitales españoles de medios.json.
+Genera titulares.json con la estructura { media, headline, mediaUrl }.
 
 La mayoría se obtiene via Playwright con emulación completa de navegador real.
 El País bloquea headless a nivel de red (Akamai), por lo que se usa su RSS.
@@ -51,35 +51,65 @@ def get_titular_rss(url):
     return "[No encontrado]"
 
 
+# Contenedores de banners de cookies / consentimiento: su texto no es un titular.
+CONSENT_SELECTOR = ", ".join(
+    f"[{attr}*='{word}' i]"
+    for attr in ("id", "class")
+    for word in ("cookie", "consent", "didomi", "onetrust", "cmp", "gdpr", "sp_message")
+)
+
+# Titular destacado = el enlace visible con la letra más grande en la parte alta
+# de la portada (a igual tamaño, el que está más arriba). No depende de que cada
+# medio use <article>/<h2> ni del orden del DOM, que coge sliders, widgets y banners.
+PICK_HEADLINE_JS = """
+([minLen, maxY, consentSel]) => {
+  let best = null;
+  for (const a of document.querySelectorAll('a')) {
+    // <body> lleva clases como "didomi-popup-open" mientras hay banner: no cuenta
+    const banner = a.closest(consentSel);
+    if (banner && banner !== document.body && banner !== document.documentElement) continue;
+    const r = a.getBoundingClientRect();
+    if (r.width === 0 || r.height === 0) continue;
+    const y = r.top + window.scrollY;
+    if (y > maxY) continue;
+    const text = a.innerText.trim().split('\\n')
+      .map(s => s.trim()).sort((p, q) => q.length - p.length)[0] || '';
+    if (text.length <= minLen) continue;
+    let fs = parseFloat(getComputedStyle(a).fontSize);
+    for (const el of a.querySelectorAll('*')) {
+      if (el.innerText && el.innerText.trim() === text) {
+        fs = Math.max(fs, parseFloat(getComputedStyle(el).fontSize));
+      }
+    }
+    if (!best || fs > best.fs || (fs === best.fs && y < best.y)) best = {text, fs, y};
+  }
+  return best && best.text;
+}
+"""
+HEADLINE_MAX_Y = 2500
+
+
 def get_titular_web(page, url):
     try:
         page.goto(url, wait_until="domcontentloaded", timeout=TIMEOUT)
+        try:
+            page.wait_for_load_state("networkidle", timeout=5000)
+        except Exception:
+            pass  # hay portadas que nunca quedan en reposo; seguimos con lo cargado
 
-        # 1. Primer <article> con h2/h3 — titular real de la noticia destacada
-        el = page.query_selector("article h2, article h3")
-        if el:
-            text = el.inner_text().strip().split("\n")[0]
-            if len(text) > LOGO_MAX_LEN:
-                return text
+        # 1. Enlace destacado (ver PICK_HEADLINE_JS)
+        text = page.evaluate(PICK_HEADLINE_JS, [LOGO_MAX_LEN, HEADLINE_MAX_Y, CONSENT_SELECTOR])
+        if text:
+            return text
 
-        # 2. Si llegó vacía (anti-bot parcial), esperar carga completa
-        body = page.query_selector("body")
-        if body and len(body.inner_text().strip()) < 300:
-            page.wait_for_load_state("networkidle", timeout=TIMEOUT)
-            el = page.query_selector("article h2, article h3")
-            if el:
-                text = el.inner_text().strip().split("\n")[0]
-                if len(text) > LOGO_MAX_LEN:
-                    return text
-
-        # 3. h1 con contenido real (no logo)
+        # 2. h1 con contenido real (no logo)
         el = page.query_selector("h1")
         if el:
             h1 = el.inner_text().strip().split("\n")[0]
             if len(h1) > LOGO_MAX_LEN:
                 return h1
 
-        # 4. Primer h2
+        # 3. Primer h2
         el = page.query_selector("h2")
         if el:
             h2 = el.inner_text().strip().split("\n")[0]
