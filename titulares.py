@@ -1,24 +1,38 @@
 #!/usr/bin/env python3
 """
 Extrae el titular principal de los medios digitales españoles de medios.json.
-Genera titulares.json con la estructura { media, headline, mediaUrl }.
 
-La mayoría se obtiene via Playwright con emulación completa de navegador real.
-El País bloquea headless a nivel de red (Akamai), por lo que se usa su RSS.
+1. Playwright visita cada portada y saca sus candidatos a titular (enlaces
+   visibles de la parte alta, ordenados por tamaño de letra). El País bloquea
+   headless a nivel de red (Akamai), así que sus candidatos salen de su RSS.
+2. clasificador.py pide a Claude que elija el titular principal de cada medio
+   y lo catalogue (temática, historia compartida entre medios y enfoque).
+   Sin API key o si la llamada falla, se usa el primer candidato (heurística).
+
+Genera titulares.json (lista de { media, headline, mediaUrl, ... }) y una copia
+en historico/AAAA/MM/.
 """
 import json
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
+
 from playwright.sync_api import sync_playwright
 from playwright_stealth import Stealth
 
+from clasificador import clasificar
+
 OUTPUT_FILE = "titulares.json"
+HISTORICO_DIR = Path("historico")
 
 MEDIOS_FILE = "medios.json"
 TIMEOUT = 20000
 LOGO_MAX_LEN = 30
+MAX_CANDIDATOS = 30
+MAX_CANDIDATOS_RSS = 10
+MADRID = ZoneInfo("Europe/Madrid")
 
 CONTEXT_OPTS = {
     "user_agent": (
@@ -38,17 +52,19 @@ CONTEXT_OPTS = {
 }
 
 
-def get_titular_rss(url):
+def get_candidatos_rss(url):
+    """Los primeros títulos del feed, en su orden (el feed de portada va por jerarquía)."""
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
     with urllib.request.urlopen(req, timeout=10) as r:
-        data = r.read()
-    root = ET.fromstring(data)
-    item = root.find(".//item")
-    if item is not None:
-        title = item.findtext("title")
-        if title and title.strip():
-            return title.strip()
-    return "[No encontrado]"
+        root = ET.fromstring(r.read())
+    candidatos = []
+    for item in root.iter("item"):
+        title = (item.findtext("title") or "").strip()
+        if title:
+            candidatos.append({"text": title})
+        if len(candidatos) == MAX_CANDIDATOS_RSS:
+            break
+    return candidatos
 
 
 # Contenedores de banners de cookies / consentimiento: su texto no es un titular.
@@ -58,19 +74,19 @@ CONSENT_SELECTOR = ", ".join(
     for word in ("cookie", "consent", "didomi", "onetrust", "cmp", "gdpr", "sp_message")
 )
 
-# Titular destacado = el enlace visible con la letra más grande en la parte alta
-# de la portada (a igual tamaño, el que está más arriba). No depende de que cada
-# medio use <article>/<h2> ni del orden del DOM, que coge sliders, widgets y banners.
-PICK_HEADLINE_JS = """
-([minLen, maxY, consentSel]) => {
-  let best = null;
+# Candidatos = enlaces visibles de la parte alta de la portada, de mayor a menor
+# tamaño de letra (a igual tamaño, el que está más arriba). El primero es el que
+# elegiría la heurística sola; el tamaño y la posición le sirven a la IA de pista.
+CANDIDATES_JS = """
+([minLen, maxY, consentSel, max]) => {
+  const seen = new Map();
   for (const a of document.querySelectorAll('a')) {
     // <body> lleva clases como "didomi-popup-open" mientras hay banner: no cuenta
     const banner = a.closest(consentSel);
     if (banner && banner !== document.body && banner !== document.documentElement) continue;
     const r = a.getBoundingClientRect();
     if (r.width === 0 || r.height === 0) continue;
-    const y = r.top + window.scrollY;
+    const y = Math.round(r.top + window.scrollY);
     if (y > maxY) continue;
     const text = a.innerText.trim().split('\\n')
       .map(s => s.trim()).sort((p, q) => q.length - p.length)[0] || '';
@@ -81,55 +97,32 @@ PICK_HEADLINE_JS = """
         fs = Math.max(fs, parseFloat(getComputedStyle(el).fontSize));
       }
     }
-    if (!best || fs > best.fs || (fs === best.fs && y < best.y)) best = {text, fs, y};
+    fs = Math.round(fs);
+    const prev = seen.get(text);
+    if (!prev || fs > prev.fs || (fs === prev.fs && y < prev.y)) seen.set(text, {text, fs, y});
   }
-  return best && best.text;
+  return [...seen.values()]
+    .sort((p, q) => q.fs - p.fs || p.y - q.y)
+    .slice(0, max);
 }
 """
 HEADLINE_MAX_Y = 2500
 
 
-def get_titular_web(page, url):
+def get_candidatos_web(page, url):
+    page.goto(url, wait_until="domcontentloaded", timeout=TIMEOUT)
     try:
-        page.goto(url, wait_until="domcontentloaded", timeout=TIMEOUT)
-        try:
-            page.wait_for_load_state("networkidle", timeout=5000)
-        except Exception:
-            pass  # hay portadas que nunca quedan en reposo; seguimos con lo cargado
-
-        # 1. Enlace destacado (ver PICK_HEADLINE_JS)
-        text = page.evaluate(PICK_HEADLINE_JS, [LOGO_MAX_LEN, HEADLINE_MAX_Y, CONSENT_SELECTOR])
-        if text:
-            return text
-
-        # 2. h1 con contenido real (no logo)
-        el = page.query_selector("h1")
-        if el:
-            h1 = el.inner_text().strip().split("\n")[0]
-            if len(h1) > LOGO_MAX_LEN:
-                return h1
-
-        # 3. Primer h2
-        el = page.query_selector("h2")
-        if el:
-            h2 = el.inner_text().strip().split("\n")[0]
-            if h2:
-                return h2
-
-    except Exception as e:
-        return f"[Error: {e}]"
-
-    return "[No encontrado]"
+        page.wait_for_load_state("networkidle", timeout=5000)
+    except Exception:
+        pass  # hay portadas que nunca quedan en reposo; seguimos con lo cargado
+    return page.evaluate(
+        CANDIDATES_JS, [LOGO_MAX_LEN, HEADLINE_MAX_Y, CONSENT_SELECTOR, MAX_CANDIDATOS]
+    )
 
 
-def main():
-    with open(MEDIOS_FILE, encoding="utf-8") as f:
-        medios = json.load(f)
-
-    print(f"\n{'─' * 70}")
-    print(f"  TITULARES  ·  {datetime.now().strftime('%d/%m/%Y %H:%M')}")
-    print(f"{'─' * 70}\n")
-
+def recoger_candidatos(medios):
+    """{ nombre: [candidatos] } o { nombre: "[Error: …]" } si no se pudo leer la portada."""
+    resultado = {}
     with sync_playwright() as p:
         browser = p.chromium.launch(
             headless=True,
@@ -139,35 +132,65 @@ def main():
         page = context.new_page()
         Stealth().apply_stealth_sync(page)
 
-        resultados = []
         for medio in medios:
             nombre = medio["nombre"]
-            print(f"  {nombre:<18}", end="", flush=True)
-
-            if "rss" in medio:
-                try:
-                    titular = get_titular_rss(medio["rss"])
-                except Exception as e:
-                    titular = f"[RSS error: {e}]"
-            else:
-                titular = get_titular_web(page, medio["url"])
-
-            print(f"  {titular}")
-            resultados.append({
-                "media": nombre,
-                "headline": titular,
-                "mediaUrl": medio["mediaUrl"],
-            })
+            try:
+                if "rss" in medio:
+                    candidatos = get_candidatos_rss(medio["rss"])
+                else:
+                    candidatos = get_candidatos_web(page, medio["url"])
+                resultado[nombre] = candidatos or "[No encontrado]"
+            except Exception as e:
+                resultado[nombre] = f"[Error: {e}]"
+            n = len(resultado[nombre]) if isinstance(resultado[nombre], list) else resultado[nombre]
+            print(f"  {nombre:<18}  candidatos: {n}")
 
         browser.close()
+    return resultado
+
+
+def main():
+    ahora = datetime.now(MADRID)
+    with open(MEDIOS_FILE, encoding="utf-8") as f:
+        medios = json.load(f)
+
+    print(f"\n{'─' * 70}")
+    print(f"  TITULARES  ·  {ahora.strftime('%d/%m/%Y %H:%M')}")
+    print(f"{'─' * 70}\n")
+
+    candidatos = recoger_candidatos(medios)
+    validos = {n: c for n, c in candidatos.items() if isinstance(c, list)}
+    clasificacion = clasificar(validos)  # {} si no hay IA: se usa la heurística
+
+    resultados = []
+    print()
+    for medio in medios:
+        nombre = medio["nombre"]
+        item = {"media": nombre, "mediaUrl": medio["mediaUrl"]}
+        if nombre not in validos:
+            item.update(headline=candidatos[nombre], clasificado=False)
+        elif nombre in clasificacion:
+            c = clasificacion[nombre]
+            item.update(
+                headline=validos[nombre][c["candidato"]]["text"],
+                tematica=c["tematica"],
+                historia=c["historia"],
+                enfoque=c["enfoque"],
+                clasificado=True,
+            )
+        else:
+            item.update(headline=validos[nombre][0]["text"], clasificado=False)
+        resultados.append(item)
+        print(f"  {nombre:<18}  {'IA ' if item['clasificado'] else '   '} {item['headline']}")
 
     print(f"\n{'─' * 70}\n")
 
-    Path(OUTPUT_FILE).write_text(
-        json.dumps(resultados, ensure_ascii=False, indent=2),
-        encoding="utf-8",
-    )
-    print(f"  JSON guardado en {OUTPUT_FILE}\n")
+    contenido = json.dumps(resultados, ensure_ascii=False, indent=2)
+    Path(OUTPUT_FILE).write_text(contenido, encoding="utf-8")
+    copia = HISTORICO_DIR / ahora.strftime("%Y/%m") / f"{ahora.strftime('%Y-%m-%d_%H%M')}.json"
+    copia.parent.mkdir(parents=True, exist_ok=True)
+    copia.write_text(contenido, encoding="utf-8")
+    print(f"  JSON guardado en {OUTPUT_FILE} y {copia}\n")
 
 
 if __name__ == "__main__":
