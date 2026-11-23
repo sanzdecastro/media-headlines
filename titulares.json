@@ -2,132 +2,132 @@
   {
     "media": "El Español",
     "mediaUrl": "https://www.elespanol.com",
-    "headline": "Penúltimo sondeo: el PP aventaja al PSOE en 3 puntos y 20 escaños con la oposición en 197",
-    "tematica": "Política nacional",
+    "headline": "El impuesto a los ultrarricos de Sánchez: afectaría a unas 100 personas y se perdería el doble de los 2.000M recaudados debido a la fuga de capitales",
+    "tematica": "Economía",
     "historia": {
-      "id": "encuestas-29n",
-      "etiqueta": "Sondeos a una semana de las elecciones del 29N"
+      "id": "impuesto-ultrarricos",
+      "etiqueta": "Impuesto a los ultrarricos propuesto por Sánchez"
     },
     "clasificado": true
   },
   {
     "media": "El Mundo",
     "mediaUrl": "https://www.elmundo.es",
-    "headline": "PP y PSOE ganan apoyos y la derecha ancla su ventaja a una semana de votar",
+    "headline": "Batalla al límite en 23 provincias: menos de 10.000 votos decidirán el último escaño, pero PP y Vox amarran su mayoría",
     "tematica": "Política nacional",
     "historia": {
-      "id": "encuestas-29n",
-      "etiqueta": "Sondeos a una semana de las elecciones del 29N"
+      "id": "escanos-pp-vox",
+      "etiqueta": "Encuestas y reparto de escaños antes del 29-N"
     },
     "clasificado": true
   },
   {
     "media": "El País",
     "mediaUrl": "https://elpais.com",
-    "headline": "El PSOE acaricia el empate con el PP, según el ‘tracking’ de 40dB.",
+    "headline": "El Gobierno ampliará este martes el permiso de duelo por fallecimiento a 10 días",
     "tematica": "Política nacional",
     "historia": {
-      "id": "encuestas-29n",
-      "etiqueta": "Sondeos a una semana de las elecciones del 29N"
+      "id": "permiso-duelo",
+      "etiqueta": "Ampliación del permiso por fallecimiento a 10 días"
     },
     "clasificado": true
   },
   {
     "media": "ABC",
     "mediaUrl": "https://www.abc.es",
-    "headline": "La derecha mantiene una holgada mayoría de 194 escaños a una semana del 29N",
-    "tematica": "Política nacional",
+    "headline": "Plus Ultra paraliza sus operaciones y se asoma a la quiebra sin haber devuelto los 53 millones del rescate",
+    "tematica": "Economía",
     "historia": {
-      "id": "encuestas-29n",
-      "etiqueta": "Sondeos a una semana de las elecciones del 29N"
+      "id": "plus-ultra",
+      "etiqueta": "Plus Ultra paraliza sus vuelos"
     },
     "clasificado": true
   },
   {
     "media": "La Razón",
     "mediaUrl": "https://www.larazon.es",
-    "headline": "Lleno de Feijóo en Murcia: el líder del PP llama a votar con \"esperanza\" para \"recuperar\" España",
+    "headline": "Feijóo advierte de que Sánchez \"haría el referéndum\" en Cataluña y pone sordina a los ataques de Vox: \"No pactaré con un amoral\"",
     "tematica": "Política nacional",
     "historia": {
-      "id": "mitin-feijoo-murcia",
-      "etiqueta": "Mitin de Feijóo en Murcia"
+      "id": "feijoo-referendum",
+      "etiqueta": "Feijóo sobre referéndum en Cataluña y pactos con Vox"
     },
     "clasificado": true
   },
   {
     "media": "El Confidencial",
     "mediaUrl": "https://www.elconfidencial.com",
-    "headline": "Feijóo evitará confrontar con Abascal en el debate a cuatro y se centrará en 'rematar' a Sánchez",
+    "headline": "El de Vox, hombre con trabajo; el del Frente Amplio, universitario y urbanita: así es el perfil de votante de cada partido",
     "tematica": "Política nacional",
     "historia": {
-      "id": "feijoo-debate-cuatro",
-      "etiqueta": "Estrategia de Feijóo en el debate a cuatro"
+      "id": "perfil-votante",
+      "etiqueta": "Perfil del votante de cada partido"
     },
     "clasificado": true
   },
   {
     "media": "20minutos",
     "mediaUrl": "https://www.20minutos.es",
-    "headline": "Pedro Sánchez, sobre las causas judiciales contra su mujer y su hermano: \"No tengo más remedio que confiar en la justicia\"",
+    "headline": "El PSOE sube, pero el PP sigue primero a distancia y tendrá mayoría absoluta con Vox",
     "tematica": "Política nacional",
     "historia": {
-      "id": "sanchez-causas-judiciales",
-      "etiqueta": "Sánchez sobre las causas judiciales de su entorno"
+      "id": "escanos-pp-vox",
+      "etiqueta": "Encuestas y reparto de escaños antes del 29-N"
     },
     "clasificado": true
   },
   {
     "media": "La Vanguardia",
     "mediaUrl": "https://www.lavanguardia.com",
-    "headline": "La derecha suma mayoría absoluta mientras el PSOE se acerca al PP",
-    "tematica": "Política nacional",
+    "headline": "El Supremo aplica la amnistía a Puigdemont y cierra la causa del 'procés'",
+    "tematica": "Tribunales y sucesos",
     "historia": {
-      "id": "encuestas-29n",
-      "etiqueta": "Sondeos a una semana de las elecciones del 29N"
+      "id": "amnistia-puigdemont",
+      "etiqueta": "El Supremo aplica la amnistía a Puigdemont"
     },
     "clasificado": true
   },
   {
     "media": "El Diario",
     "mediaUrl": "https://www.eldiario.es",
-    "headline": "Sánchez desafía a PP y Vox tras declararlo persona non grata en Murcia: “El 29N se decide entre buena política o mala educación”",
+    "headline": "El mapa de los 48 escaños en disputa a una semana de las elecciones",
     "tematica": "Política nacional",
     "historia": {
-      "id": "sanchez-murcia",
-      "etiqueta": "Sánchez en Murcia y cierre de campaña"
+      "id": "mapa-escanos-disputa",
+      "etiqueta": "Escaños en disputa a una semana de las elecciones"
     },
     "clasificado": true
   },
   {
     "media": "El Periódico",
     "mediaUrl": "https://www.elperiodico.com/es/",
-    "headline": "Inquietud en Lotte por el retraso en los permisos para construir su fábrica de Mont-roig del Camp: \"No lo esperábamos\"",
-    "tematica": "Economía",
+    "headline": "Una de cada diez personas del área de Barcelona vive en un piso compartido con otra familia",
+    "tematica": "Sociedad",
     "historia": {
-      "id": "lotte-mont-roig",
-      "etiqueta": "Retraso de permisos para la fábrica de Lotte en Mont-roig"
+      "id": "pisos-compartidos-barcelona",
+      "etiqueta": "Familias que comparten piso en el área de Barcelona"
     },
     "clasificado": true
   },
   {
     "media": "Público",
     "mediaUrl": "https://www.publico.es",
-    "headline": "Sánchez: \"Siempre he evitado el estilo matonista de Feijóo\"",
-    "tematica": "Política nacional",
+    "headline": "Hasta 426 organizaciones sociales reclaman a la Defensora del Pueblo en funciones que restituya el Área de Migraciones e Igualdad",
+    "tematica": "Sociedad",
     "historia": {
-      "id": "sanchez-estilo-feijoo",
-      "etiqueta": "Sánchez sobre el estilo de Feijóo"
+      "id": "defensora-pueblo-organizaciones",
+      "etiqueta": "Organizaciones piden a la Defensora del Pueblo restituir áreas de Migraciones e Igualdad"
     },
     "clasificado": true
   },
   {
     "media": "Infolibre",
     "mediaUrl": "https://www.infolibre.es",
-    "headline": "Vivir con 900 euros, pasar frío y cobrar el mismo bono social que la familia de Abascal",
-    "tematica": "Sociedad",
+    "headline": "España llega al 29N con el regulador de las redes atado de manos y sin poderes para combatir los bulos electorales",
+    "tematica": "Política nacional",
     "historia": {
-      "id": "bono-social-pobreza",
-      "etiqueta": "Bono social y pobreza energética"
+      "id": "bulos-electorales-regulador",
+      "etiqueta": "Falta de poderes del regulador contra los bulos electorales"
     },
     "clasificado": true
   }
