@@ -2,77 +2,77 @@
   {
     "media": "El Español",
     "mediaUrl": "https://www.elespanol.com",
-    "headline": "El impuesto a los ultrarricos de Sánchez: afectaría a unas 100 personas y se perdería el doble de los 2.000M recaudados debido a la fuga de capitales",
-    "tematica": "Economía",
+    "headline": "Feijóo y Sánchez al alza, con tres puntos y 20 escaños a favor del PP: la derecha suma 196 a seis días de la votación",
+    "tematica": "Política nacional",
     "historia": {
-      "id": "impuesto-ultrarricos",
-      "etiqueta": "Impuesto a los ultrarricos propuesto por Sánchez"
+      "id": "encuestas-29n",
+      "etiqueta": "Encuestas ante las elecciones del 29N"
     },
     "clasificado": true
   },
   {
     "media": "El Mundo",
     "mediaUrl": "https://www.elmundo.es",
-    "headline": "Batalla al límite en 23 provincias: menos de 10.000 votos decidirán el último escaño, pero PP y Vox amarran su mayoría",
+    "headline": "Los 'nietos' votan en urnas de cartón en Argentina y Venezuela con una participación masiva",
     "tematica": "Política nacional",
     "historia": {
-      "id": "escanos-pp-vox",
-      "etiqueta": "Encuestas y reparto de escaños antes del 29-N"
+      "id": "voto-nietos",
+      "etiqueta": "Voto de nacionalizados por la ley de nietos"
     },
     "clasificado": true
   },
   {
     "media": "El País",
     "mediaUrl": "https://elpais.com",
-    "headline": "El Gobierno ampliará este martes el permiso de duelo por fallecimiento a 10 días",
+    "headline": "La izquierda combate unida a PP y Vox en un debate a ocho que escenifica la división entre bloques",
     "tematica": "Política nacional",
     "historia": {
-      "id": "permiso-duelo",
-      "etiqueta": "Ampliación del permiso por fallecimiento a 10 días"
+      "id": "debate-ocho",
+      "etiqueta": "Debate a ocho de portavoces en RTVE"
     },
     "clasificado": true
   },
   {
     "media": "ABC",
     "mediaUrl": "https://www.abc.es",
-    "headline": "Plus Ultra paraliza sus operaciones y se asoma a la quiebra sin haber devuelto los 53 millones del rescate",
-    "tematica": "Economía",
+    "headline": "Caos en el voto de nacionalizados y residentes en el extranjero",
+    "tematica": "Política nacional",
     "historia": {
-      "id": "plus-ultra",
-      "etiqueta": "Plus Ultra paraliza sus vuelos"
+      "id": "voto-nietos",
+      "etiqueta": "Voto de nacionalizados por la ley de nietos"
     },
     "clasificado": true
   },
   {
     "media": "La Razón",
     "mediaUrl": "https://www.larazon.es",
-    "headline": "Feijóo advierte de que Sánchez \"haría el referéndum\" en Cataluña y pone sordina a los ataques de Vox: \"No pactaré con un amoral\"",
+    "headline": "Alberto Núñez Feijóo: «No podría dormir tranquilo si me doy cuenta de que he sido un cobarde»",
     "tematica": "Política nacional",
     "historia": {
-      "id": "feijoo-referendum",
-      "etiqueta": "Feijóo sobre referéndum en Cataluña y pactos con Vox"
+      "id": "entrevista-feijoo",
+      "etiqueta": "Entrevista a Feijóo en campaña"
     },
     "clasificado": true
   },
   {
     "media": "El Confidencial",
     "mediaUrl": "https://www.elconfidencial.com",
-    "headline": "El de Vox, hombre con trabajo; el del Frente Amplio, universitario y urbanita: así es el perfil de votante de cada partido",
+    "headline": "Rufián, Muñoz y Delgado destacan en un debate de bloques, bronca y discusión con pinganillos",
     "tematica": "Política nacional",
     "historia": {
-      "id": "perfil-votante",
-      "etiqueta": "Perfil del votante de cada partido"
+      "id": "debate-ocho",
+      "etiqueta": "Debate a ocho de portavoces en RTVE"
     },
     "clasificado": true
   },
   {
     "media": "20minutos",
     "mediaUrl": "https://www.20minutos.es",
-    "headline": "El PSOE sube, pero el PP sigue primero a distancia y tendrá mayoría absoluta con Vox",
+    "headline": "PP y Vox llaman \"cómplices\" a los socios del PSOE, que se unen contra su posible Gobierno",
     "tematica": "Política nacional",
     "historia": {
-      "id": "escanos-pp-vox",
-      "etiqueta": "Encuestas y reparto de escaños antes del 29-N"
+      "id": "debate-ocho",
+      "etiqueta": "Debate a ocho de portavoces en RTVE"
     },
     "clasificado": true
   },
@@ -90,33 +90,33 @@
   {
     "media": "El Diario",
     "mediaUrl": "https://www.eldiario.es",
-    "headline": "El mapa de los 48 escaños en disputa a una semana de las elecciones",
+    "headline": "El debate a ocho confirma los bloques que se apoyarán tras el 29N: PP y Vox frente a un PSOE exigido por su izquierda",
     "tematica": "Política nacional",
     "historia": {
-      "id": "mapa-escanos-disputa",
-      "etiqueta": "Escaños en disputa a una semana de las elecciones"
+      "id": "debate-ocho",
+      "etiqueta": "Debate a ocho de portavoces en RTVE"
     },
     "clasificado": true
   },
   {
     "media": "El Periódico",
     "mediaUrl": "https://www.elperiodico.com/es/",
-    "headline": "Una de cada diez personas del área de Barcelona vive en un piso compartido con otra familia",
-    "tematica": "Sociedad",
+    "headline": "Los premios Català i Catalana de l’Any 2026 a Emma Vilarasau y los chefs del Disfrutar reivindican la libertad de creación",
+    "tematica": "Cultura y ocio",
     "historia": {
-      "id": "pisos-compartidos-barcelona",
-      "etiqueta": "Familias que comparten piso en el área de Barcelona"
+      "id": "premios-catala-any",
+      "etiqueta": "Premios Català i Catalana de l'Any"
     },
     "clasificado": true
   },
   {
     "media": "Público",
     "mediaUrl": "https://www.publico.es",
-    "headline": "Hasta 426 organizaciones sociales reclaman a la Defensora del Pueblo en funciones que restituya el Área de Migraciones e Igualdad",
-    "tematica": "Sociedad",
+    "headline": "Pedro Sánchez: \"No estoy seguro de si PP y Vox van a aceptar el veredicto de las urnas\"",
+    "tematica": "Política nacional",
     "historia": {
-      "id": "defensora-pueblo-organizaciones",
-      "etiqueta": "Organizaciones piden a la Defensora del Pueblo restituir áreas de Migraciones e Igualdad"
+      "id": "entrevista-sanchez",
+      "etiqueta": "Entrevista a Pedro Sánchez en Público"
     },
     "clasificado": true
   },
@@ -126,8 +126,8 @@
     "headline": "España llega al 29N con el regulador de las redes atado de manos y sin poderes para combatir los bulos electorales",
     "tematica": "Política nacional",
     "historia": {
-      "id": "bulos-electorales-regulador",
-      "etiqueta": "Falta de poderes del regulador contra los bulos electorales"
+      "id": "bulos-electorales",
+      "etiqueta": "Regulador de redes sin poderes contra bulos electorales"
     },
     "clasificado": true
   }

@@ -1,0 +1,134 @@
+[
+  {
+    "media": "El Español",
+    "mediaUrl": "https://www.elespanol.com",
+    "headline": "Feijóo y Sánchez al alza, con tres puntos y 20 escaños a favor del PP: la derecha suma 196 a seis días de la votación",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "encuestas-29n",
+      "etiqueta": "Encuestas ante las elecciones del 29N"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "El Mundo",
+    "mediaUrl": "https://www.elmundo.es",
+    "headline": "Los 'nietos' votan en urnas de cartón en Argentina y Venezuela con una participación masiva",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "voto-nietos",
+      "etiqueta": "Voto de nacionalizados por la ley de nietos"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "El País",
+    "mediaUrl": "https://elpais.com",
+    "headline": "La izquierda combate unida a PP y Vox en un debate a ocho que escenifica la división entre bloques",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "debate-ocho",
+      "etiqueta": "Debate a ocho de portavoces en RTVE"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "ABC",
+    "mediaUrl": "https://www.abc.es",
+    "headline": "Caos en el voto de nacionalizados y residentes en el extranjero",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "voto-nietos",
+      "etiqueta": "Voto de nacionalizados por la ley de nietos"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "La Razón",
+    "mediaUrl": "https://www.larazon.es",
+    "headline": "Alberto Núñez Feijóo: «No podría dormir tranquilo si me doy cuenta de que he sido un cobarde»",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "entrevista-feijoo",
+      "etiqueta": "Entrevista a Feijóo en campaña"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "El Confidencial",
+    "mediaUrl": "https://www.elconfidencial.com",
+    "headline": "Rufián, Muñoz y Delgado destacan en un debate de bloques, bronca y discusión con pinganillos",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "debate-ocho",
+      "etiqueta": "Debate a ocho de portavoces en RTVE"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "20minutos",
+    "mediaUrl": "https://www.20minutos.es",
+    "headline": "PP y Vox llaman \"cómplices\" a los socios del PSOE, que se unen contra su posible Gobierno",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "debate-ocho",
+      "etiqueta": "Debate a ocho de portavoces en RTVE"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "La Vanguardia",
+    "mediaUrl": "https://www.lavanguardia.com",
+    "headline": "El Supremo aplica la amnistía a Puigdemont y cierra la causa del 'procés'",
+    "tematica": "Tribunales y sucesos",
+    "historia": {
+      "id": "amnistia-puigdemont",
+      "etiqueta": "El Supremo aplica la amnistía a Puigdemont"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "El Diario",
+    "mediaUrl": "https://www.eldiario.es",
+    "headline": "El debate a ocho confirma los bloques que se apoyarán tras el 29N: PP y Vox frente a un PSOE exigido por su izquierda",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "debate-ocho",
+      "etiqueta": "Debate a ocho de portavoces en RTVE"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "El Periódico",
+    "mediaUrl": "https://www.elperiodico.com/es/",
+    "headline": "Los premios Català i Catalana de l’Any 2026 a Emma Vilarasau y los chefs del Disfrutar reivindican la libertad de creación",
+    "tematica": "Cultura y ocio",
+    "historia": {
+      "id": "premios-catala-any",
+      "etiqueta": "Premios Català i Catalana de l'Any"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "Público",
+    "mediaUrl": "https://www.publico.es",
+    "headline": "Pedro Sánchez: \"No estoy seguro de si PP y Vox van a aceptar el veredicto de las urnas\"",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "entrevista-sanchez",
+      "etiqueta": "Entrevista a Pedro Sánchez en Público"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "Infolibre",
+    "mediaUrl": "https://www.infolibre.es",
+    "headline": "España llega al 29N con el regulador de las redes atado de manos y sin poderes para combatir los bulos electorales",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "bulos-electorales",
+      "etiqueta": "Regulador de redes sin poderes contra bulos electorales"
+    },
+    "clasificado": true
+  }
+]
