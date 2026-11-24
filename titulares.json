@@ -2,110 +2,110 @@
   {
     "media": "El Español",
     "mediaUrl": "https://www.elespanol.com",
-    "headline": "Feijóo y Sánchez al alza, con tres puntos y 20 escaños a favor del PP: la derecha suma 196 a seis días de la votación",
+    "headline": "La participación en los consulados se dispara con el coladero de la 'ley de nietos': urnas de cartón y colas de horas",
     "tematica": "Política nacional",
     "historia": {
-      "id": "encuestas-29n",
-      "etiqueta": "Encuestas ante las elecciones del 29N"
+      "id": "voto-exterior",
+      "etiqueta": "Participación en el voto exterior en los consulados"
     },
     "clasificado": true
   },
   {
     "media": "El Mundo",
     "mediaUrl": "https://www.elmundo.es",
-    "headline": "Los 'nietos' votan en urnas de cartón en Argentina y Venezuela con una participación masiva",
+    "headline": "Sánchez exprime su último Consejo de Ministros en campaña con una lluvia de medidas para las familias, mujeres y más millones para construir vivienda",
     "tematica": "Política nacional",
     "historia": {
-      "id": "voto-nietos",
-      "etiqueta": "Voto de nacionalizados por la ley de nietos"
+      "id": "consejo-ministros-medidas",
+      "etiqueta": "Último Consejo de Ministros antes del 29-N con paquete de medidas sociales"
     },
     "clasificado": true
   },
   {
     "media": "El País",
     "mediaUrl": "https://elpais.com",
-    "headline": "La izquierda combate unida a PP y Vox en un debate a ocho que escenifica la división entre bloques",
+    "headline": "El Gobierno reivindica su traca final de medidas sociales previas al 29-N: “Cumplimos con nuestro deber”",
     "tematica": "Política nacional",
     "historia": {
-      "id": "debate-ocho",
-      "etiqueta": "Debate a ocho de portavoces en RTVE"
+      "id": "consejo-ministros-medidas",
+      "etiqueta": "Último Consejo de Ministros antes del 29-N con paquete de medidas sociales"
     },
     "clasificado": true
   },
   {
     "media": "ABC",
     "mediaUrl": "https://www.abc.es",
-    "headline": "Caos en el voto de nacionalizados y residentes en el extranjero",
+    "headline": "Traca final de Sánchez antes del 29N: aborto, 'tax the rich' y permisos retribuidos",
     "tematica": "Política nacional",
     "historia": {
-      "id": "voto-nietos",
-      "etiqueta": "Voto de nacionalizados por la ley de nietos"
+      "id": "consejo-ministros-medidas",
+      "etiqueta": "Último Consejo de Ministros antes del 29-N con paquete de medidas sociales"
     },
     "clasificado": true
   },
   {
     "media": "La Razón",
     "mediaUrl": "https://www.larazon.es",
-    "headline": "Alberto Núñez Feijóo: «No podría dormir tranquilo si me doy cuenta de que he sido un cobarde»",
+    "headline": "Sánchez sigue apurando antes de las elecciones: el Gobierno aprueba extender el permiso por nacimiento a 20 semanas",
     "tematica": "Política nacional",
     "historia": {
-      "id": "entrevista-feijoo",
-      "etiqueta": "Entrevista a Feijóo en campaña"
+      "id": "permiso-nacimiento",
+      "etiqueta": "Ampliación del permiso por nacimiento a 20 semanas"
     },
     "clasificado": true
   },
   {
     "media": "El Confidencial",
     "mediaUrl": "https://www.elconfidencial.com",
-    "headline": "Rufián, Muñoz y Delgado destacan en un debate de bloques, bronca y discusión con pinganillos",
+    "headline": "Moncloa apura la bala de los martes sociales con el impuesto a los bancos y la ampliación de permisos",
     "tematica": "Política nacional",
     "historia": {
-      "id": "debate-ocho",
-      "etiqueta": "Debate a ocho de portavoces en RTVE"
+      "id": "consejo-ministros-medidas",
+      "etiqueta": "Último Consejo de Ministros antes del 29-N con paquete de medidas sociales"
     },
     "clasificado": true
   },
   {
     "media": "20minutos",
     "mediaUrl": "https://www.20minutos.es",
-    "headline": "PP y Vox llaman \"cómplices\" a los socios del PSOE, que se unen contra su posible Gobierno",
-    "tematica": "Política nacional",
+    "headline": "Bruselas amenaza a España con un expediente por una desviación \"excesiva\" del gasto público",
+    "tematica": "Economía",
     "historia": {
-      "id": "debate-ocho",
-      "etiqueta": "Debate a ocho de portavoces en RTVE"
+      "id": "bruselas-expediente",
+      "etiqueta": "Bruselas amenaza a España con expediente por exceso de gasto"
     },
     "clasificado": true
   },
   {
     "media": "La Vanguardia",
     "mediaUrl": "https://www.lavanguardia.com",
-    "headline": "El Supremo aplica la amnistía a Puigdemont y cierra la causa del 'procés'",
-    "tematica": "Tribunales y sucesos",
+    "headline": "El Gobierno amplía a 20 semanas el permiso por nacimiento",
+    "tematica": "Política nacional",
     "historia": {
-      "id": "amnistia-puigdemont",
-      "etiqueta": "El Supremo aplica la amnistía a Puigdemont"
+      "id": "permiso-nacimiento",
+      "etiqueta": "Ampliación del permiso por nacimiento a 20 semanas"
     },
     "clasificado": true
   },
   {
     "media": "El Diario",
     "mediaUrl": "https://www.eldiario.es",
-    "headline": "El debate a ocho confirma los bloques que se apoyarán tras el 29N: PP y Vox frente a un PSOE exigido por su izquierda",
+    "headline": "El Gobierno echa el resto en el último Consejo de Ministros antes del 29N con una cascada de medidas sociales",
     "tematica": "Política nacional",
     "historia": {
-      "id": "debate-ocho",
-      "etiqueta": "Debate a ocho de portavoces en RTVE"
+      "id": "consejo-ministros-medidas",
+      "etiqueta": "Último Consejo de Ministros antes del 29-N con paquete de medidas sociales"
     },
     "clasificado": true
   },
   {
     "media": "El Periódico",
     "mediaUrl": "https://www.elperiodico.com/es/",
-    "headline": "Los premios Català i Catalana de l’Any 2026 a Emma Vilarasau y los chefs del Disfrutar reivindican la libertad de creación",
-    "tematica": "Cultura y ocio",
+    "headline": "Catalunya inicia la desescalada de la peste porcina tras un año de restricciones y millones de pérdidas económicas",
+    "tematica": "Clima y medio ambiente",
     "historia": {
-      "id": "premios-catala-any",
-      "etiqueta": "Premios Català i Catalana de l'Any"
+      "id": "peste-porcina",
+      "etiqueta": "Desescalada de la peste porcina en Cataluña"
     },
     "clasificado": true
   },
@@ -116,18 +116,18 @@
     "tematica": "Política nacional",
     "historia": {
       "id": "entrevista-sanchez",
-      "etiqueta": "Entrevista a Pedro Sánchez en Público"
+      "etiqueta": "Entrevista a Pedro Sánchez sobre el veredicto de las urnas"
     },
     "clasificado": true
   },
   {
     "media": "Infolibre",
     "mediaUrl": "https://www.infolibre.es",
-    "headline": "España llega al 29N con el regulador de las redes atado de manos y sin poderes para combatir los bulos electorales",
-    "tematica": "Política nacional",
+    "headline": "\"Por cada asesinada debería pararse el mundo\": las víctimas exigen un sistema fuerte contra la violencia",
+    "tematica": "Sociedad",
     "historia": {
-      "id": "bulos-electorales",
-      "etiqueta": "Regulador de redes sin poderes contra bulos electorales"
+      "id": "violencia-genero",
+      "etiqueta": "Víctimas piden un sistema fuerte contra la violencia de género"
     },
     "clasificado": true
   }
