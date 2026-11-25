@@ -2,132 +2,132 @@
   {
     "media": "El Español",
     "mediaUrl": "https://www.elespanol.com",
-    "headline": "Feijóo a Sánchez tras la declaración judicial de la jefa de 'Los Rocho': \"¿Quién dio la orden para eliminar a la juez que investigaba a su hermano?\"",
-    "tematica": "Política nacional",
+    "headline": "Los peritos de Adamuz apuntan como causa a una soldadura mal hecha: la vía no se revisó en 2 meses pese a crecer el bache",
+    "tematica": "Tribunales y sucesos",
     "historia": {
-      "id": "rocho-biedma",
-      "etiqueta": "Declaración de la jefa de 'Los Rocho' sobre la jueza Biedma"
+      "id": "adamuz-peritos",
+      "etiqueta": "Peritos señalan una soldadura defectuosa en el accidente de Adamuz"
     },
     "clasificado": true
   },
   {
     "media": "El Mundo",
     "mediaUrl": "https://www.elmundo.es",
-    "headline": "El PSOE se aferra a un milagro en la \"España periférica\" mientras asume \"la fortaleza de PP y Vox\"",
+    "headline": "El PP promete 'pantallas cero' en los primeros años de la escuela: \"Los libros y el cuaderno volverán a ser las herramientas prioritarias\"",
     "tematica": "Política nacional",
     "historia": {
-      "id": "psoe-periferica-29n",
-      "etiqueta": "El PSOE ante el 29-N y la España periférica"
+      "id": "pp-pantallas-cero",
+      "etiqueta": "El PP promete pantallas cero en la escuela"
     },
     "clasificado": true
   },
   {
     "media": "El País",
     "mediaUrl": "https://elpais.com",
-    "headline": "El Gobierno reivindica su traca final de medidas sociales previas al 29-N: “Cumplimos con nuestro deber”",
+    "headline": "Puigdemont anuncia que regresará a Barcelona el sábado 12 de diciembre “sin pedir perdón ni permiso”",
     "tematica": "Política nacional",
     "historia": {
-      "id": "consejo-ministros-medidas",
-      "etiqueta": "Último Consejo de Ministros antes del 29-N con medidas sociales y permiso de nacimiento de 20 semanas"
+      "id": "puigdemont-regreso",
+      "etiqueta": "Puigdemont anuncia su regreso a España el 12 de diciembre"
     },
     "clasificado": true
   },
   {
     "media": "ABC",
     "mediaUrl": "https://www.abc.es",
-    "headline": "Traca final de Sánchez antes del 29N: aborto, 'tax the rich' y permisos retribuidos",
+    "headline": "Los consulados 'fabricaron' sobres y papeletas para el voto exterior al no llegarles a tiempo los del 29N",
     "tematica": "Política nacional",
     "historia": {
-      "id": "consejo-ministros-medidas",
-      "etiqueta": "Último Consejo de Ministros antes del 29-N con medidas sociales y permiso de nacimiento de 20 semanas"
+      "id": "voto-exterior-sobres",
+      "etiqueta": "Consulados improvisan sobres y papeletas para el voto exterior"
     },
     "clasificado": true
   },
   {
     "media": "La Razón",
     "mediaUrl": "https://www.larazon.es",
-    "headline": "Sánchez sigue apurando antes de las elecciones: el Gobierno aprueba extender el permiso por nacimiento a 20 semanas",
+    "headline": "Puigdemont regresará el 12 de diciembre y seguirá \"comprometido\" con la independencia: \"España ha perdido\"",
     "tematica": "Política nacional",
     "historia": {
-      "id": "consejo-ministros-medidas",
-      "etiqueta": "Último Consejo de Ministros antes del 29-N con medidas sociales y permiso de nacimiento de 20 semanas"
+      "id": "puigdemont-regreso",
+      "etiqueta": "Puigdemont anuncia su regreso a España el 12 de diciembre"
     },
     "clasificado": true
   },
   {
     "media": "El Confidencial",
     "mediaUrl": "https://www.elconfidencial.com",
-    "headline": "Sánchez volverá a sacar su 'yo moderado' en el debate para convencer al indeciso de que no es \"un dictador o un psicópata\"",
+    "headline": "Núñez Feijóo: \"Si alguna vez pierdo la cabeza y me comporto como Sánchez, que me echen del partido\"",
     "tematica": "Política nacional",
     "historia": {
-      "id": "sanchez-debate-moderado",
-      "etiqueta": "Sánchez prepara el debate con imagen moderada"
+      "id": "feijoo-perder-cabeza",
+      "etiqueta": "Declaraciones de Feijóo sobre Sánchez en campaña"
     },
     "clasificado": true
   },
   {
     "media": "20minutos",
     "mediaUrl": "https://www.20minutos.es",
-    "headline": "El Gobierno amplía hasta las 20 semanas el permiso por nacimiento a solo cinco días del 29N",
+    "headline": "Pedro Sánchez: \"Confié en las personas que no lo merecían, me equivoqué y he pedido perdón\"",
     "tematica": "Política nacional",
     "historia": {
-      "id": "consejo-ministros-medidas",
-      "etiqueta": "Último Consejo de Ministros antes del 29-N con medidas sociales y permiso de nacimiento de 20 semanas"
+      "id": "sanchez-confie-equivoque",
+      "etiqueta": "Sánchez reconoce haberse equivocado al confiar en personas"
     },
     "clasificado": true
   },
   {
     "media": "La Vanguardia",
     "mediaUrl": "https://www.lavanguardia.com",
-    "headline": "El Gobierno amplía a 20 semanas el permiso por nacimiento",
+    "headline": "La estrategia de Feijóo y Sánchez para captar el voto útil enoja a sus aliados",
     "tematica": "Política nacional",
     "historia": {
-      "id": "consejo-ministros-medidas",
-      "etiqueta": "Último Consejo de Ministros antes del 29-N con medidas sociales y permiso de nacimiento de 20 semanas"
+      "id": "voto-util",
+      "etiqueta": "Estrategias de Feijóo y Sánchez para captar el voto útil"
     },
     "clasificado": true
   },
   {
     "media": "El Diario",
     "mediaUrl": "https://www.eldiario.es",
-    "headline": "El Gobierno echa el resto en el último Consejo de Ministros antes del 29N con una cascada de medidas sociales",
+    "headline": "El PP utiliza el día contra la violencia machista para cargar contra el Gobierno: “Le pusieron un piso a una puta”",
     "tematica": "Política nacional",
     "historia": {
-      "id": "consejo-ministros-medidas",
-      "etiqueta": "Último Consejo de Ministros antes del 29-N con medidas sociales y permiso de nacimiento de 20 semanas"
+      "id": "alvarez-toledo-piso",
+      "etiqueta": "Polémica por las palabras de Álvarez de Toledo en el 25N"
     },
     "clasificado": true
   },
   {
     "media": "El Periódico",
     "mediaUrl": "https://www.elperiodico.com/es/",
-    "headline": "Más de la mitad de los feminicidios de 2026 se han cometido tras la ruptura: \"Cuando ven que hacen su vida, deciden matarlas\"",
-    "tematica": "Sociedad",
+    "headline": "Feijóo, ante su posible primera negociación de gobierno con el partido que quebró la hegemonía del PP",
+    "tematica": "Política nacional",
     "historia": {
-      "id": "feminicidios-ruptura",
-      "etiqueta": "Feminicidios de 2026 tras la ruptura de pareja"
+      "id": "feijoo-negociacion-junts",
+      "etiqueta": "Feijóo ante una posible negociación de gobierno con Junts"
     },
     "clasificado": true
   },
   {
     "media": "Público",
     "mediaUrl": "https://www.publico.es",
-    "headline": "Pedro Sánchez: \"No estoy seguro de si PP y Vox van a aceptar el veredicto de las urnas\"",
-    "tematica": "Política nacional",
+    "headline": "Una jueza cita como investigados a Leire Díez y al expresidente de Correos en plena campaña electoral por una querella de Vox de hace un año",
+    "tematica": "Tribunales y sucesos",
     "historia": {
-      "id": "sanchez-veredicto-urnas",
-      "etiqueta": "Entrevista a Sánchez sobre si PP y Vox aceptarán el resultado electoral"
+      "id": "leire-diez-citada",
+      "etiqueta": "Jueza cita como investigados a Leire Díez y al expresidente de Correos"
     },
     "clasificado": true
   },
   {
     "media": "Infolibre",
     "mediaUrl": "https://www.infolibre.es",
-    "headline": "\"Por cada asesinada debería pararse el mundo\": las víctimas exigen un sistema fuerte contra la violencia",
-    "tematica": "Sociedad",
+    "headline": "Puigdemont regresará a España el próximo 12 de diciembre: \"Volveré sin pedir permiso ni perdón\"",
+    "tematica": "Política nacional",
     "historia": {
-      "id": "violencia-genero-victimas",
-      "etiqueta": "Víctimas exigen un sistema fuerte contra la violencia machista"
+      "id": "puigdemont-regreso",
+      "etiqueta": "Puigdemont anuncia su regreso a España el 12 de diciembre"
     },
     "clasificado": true
   }
