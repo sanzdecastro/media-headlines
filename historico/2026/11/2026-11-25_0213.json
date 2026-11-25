@@ -1,0 +1,134 @@
+[
+  {
+    "media": "El Español",
+    "mediaUrl": "https://www.elespanol.com",
+    "headline": "Feijóo a Sánchez tras la declaración judicial de la jefa de 'Los Rocho': \"¿Quién dio la orden para eliminar a la juez que investigaba a su hermano?\"",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "rocho-biedma",
+      "etiqueta": "Declaración de la jefa de 'Los Rocho' sobre la jueza Biedma"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "El Mundo",
+    "mediaUrl": "https://www.elmundo.es",
+    "headline": "El PSOE se aferra a un milagro en la \"España periférica\" mientras asume \"la fortaleza de PP y Vox\"",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "psoe-periferica-29n",
+      "etiqueta": "El PSOE ante el 29-N y la España periférica"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "El País",
+    "mediaUrl": "https://elpais.com",
+    "headline": "El Gobierno reivindica su traca final de medidas sociales previas al 29-N: “Cumplimos con nuestro deber”",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "consejo-ministros-medidas",
+      "etiqueta": "Último Consejo de Ministros antes del 29-N con medidas sociales y permiso de nacimiento de 20 semanas"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "ABC",
+    "mediaUrl": "https://www.abc.es",
+    "headline": "Traca final de Sánchez antes del 29N: aborto, 'tax the rich' y permisos retribuidos",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "consejo-ministros-medidas",
+      "etiqueta": "Último Consejo de Ministros antes del 29-N con medidas sociales y permiso de nacimiento de 20 semanas"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "La Razón",
+    "mediaUrl": "https://www.larazon.es",
+    "headline": "Sánchez sigue apurando antes de las elecciones: el Gobierno aprueba extender el permiso por nacimiento a 20 semanas",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "consejo-ministros-medidas",
+      "etiqueta": "Último Consejo de Ministros antes del 29-N con medidas sociales y permiso de nacimiento de 20 semanas"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "El Confidencial",
+    "mediaUrl": "https://www.elconfidencial.com",
+    "headline": "Sánchez volverá a sacar su 'yo moderado' en el debate para convencer al indeciso de que no es \"un dictador o un psicópata\"",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "sanchez-debate-moderado",
+      "etiqueta": "Sánchez prepara el debate con imagen moderada"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "20minutos",
+    "mediaUrl": "https://www.20minutos.es",
+    "headline": "El Gobierno amplía hasta las 20 semanas el permiso por nacimiento a solo cinco días del 29N",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "consejo-ministros-medidas",
+      "etiqueta": "Último Consejo de Ministros antes del 29-N con medidas sociales y permiso de nacimiento de 20 semanas"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "La Vanguardia",
+    "mediaUrl": "https://www.lavanguardia.com",
+    "headline": "El Gobierno amplía a 20 semanas el permiso por nacimiento",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "consejo-ministros-medidas",
+      "etiqueta": "Último Consejo de Ministros antes del 29-N con medidas sociales y permiso de nacimiento de 20 semanas"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "El Diario",
+    "mediaUrl": "https://www.eldiario.es",
+    "headline": "El Gobierno echa el resto en el último Consejo de Ministros antes del 29N con una cascada de medidas sociales",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "consejo-ministros-medidas",
+      "etiqueta": "Último Consejo de Ministros antes del 29-N con medidas sociales y permiso de nacimiento de 20 semanas"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "El Periódico",
+    "mediaUrl": "https://www.elperiodico.com/es/",
+    "headline": "Más de la mitad de los feminicidios de 2026 se han cometido tras la ruptura: \"Cuando ven que hacen su vida, deciden matarlas\"",
+    "tematica": "Sociedad",
+    "historia": {
+      "id": "feminicidios-ruptura",
+      "etiqueta": "Feminicidios de 2026 tras la ruptura de pareja"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "Público",
+    "mediaUrl": "https://www.publico.es",
+    "headline": "Pedro Sánchez: \"No estoy seguro de si PP y Vox van a aceptar el veredicto de las urnas\"",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "sanchez-veredicto-urnas",
+      "etiqueta": "Entrevista a Sánchez sobre si PP y Vox aceptarán el resultado electoral"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "Infolibre",
+    "mediaUrl": "https://www.infolibre.es",
+    "headline": "\"Por cada asesinada debería pararse el mundo\": las víctimas exigen un sistema fuerte contra la violencia",
+    "tematica": "Sociedad",
+    "historia": {
+      "id": "violencia-genero-victimas",
+      "etiqueta": "Víctimas exigen un sistema fuerte contra la violencia machista"
+    },
+    "clasificado": true
+  }
+]

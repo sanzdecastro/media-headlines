@@ -2,22 +2,22 @@
   {
     "media": "El Español",
     "mediaUrl": "https://www.elespanol.com",
-    "headline": "La participación en los consulados se dispara con el coladero de la 'ley de nietos': urnas de cartón y colas de horas",
+    "headline": "Feijóo a Sánchez tras la declaración judicial de la jefa de 'Los Rocho': \"¿Quién dio la orden para eliminar a la juez que investigaba a su hermano?\"",
     "tematica": "Política nacional",
     "historia": {
-      "id": "voto-exterior",
-      "etiqueta": "Participación en el voto exterior en los consulados"
+      "id": "rocho-biedma",
+      "etiqueta": "Declaración de la jefa de 'Los Rocho' sobre la jueza Biedma"
     },
     "clasificado": true
   },
   {
     "media": "El Mundo",
     "mediaUrl": "https://www.elmundo.es",
-    "headline": "Sánchez exprime su último Consejo de Ministros en campaña con una lluvia de medidas para las familias, mujeres y más millones para construir vivienda",
+    "headline": "El PSOE se aferra a un milagro en la \"España periférica\" mientras asume \"la fortaleza de PP y Vox\"",
     "tematica": "Política nacional",
     "historia": {
-      "id": "consejo-ministros-medidas",
-      "etiqueta": "Último Consejo de Ministros antes del 29-N con paquete de medidas sociales"
+      "id": "psoe-periferica-29n",
+      "etiqueta": "El PSOE ante el 29-N y la España periférica"
     },
     "clasificado": true
   },
@@ -28,7 +28,7 @@
     "tematica": "Política nacional",
     "historia": {
       "id": "consejo-ministros-medidas",
-      "etiqueta": "Último Consejo de Ministros antes del 29-N con paquete de medidas sociales"
+      "etiqueta": "Último Consejo de Ministros antes del 29-N con medidas sociales y permiso de nacimiento de 20 semanas"
     },
     "clasificado": true
   },
@@ -39,7 +39,7 @@
     "tematica": "Política nacional",
     "historia": {
       "id": "consejo-ministros-medidas",
-      "etiqueta": "Último Consejo de Ministros antes del 29-N con paquete de medidas sociales"
+      "etiqueta": "Último Consejo de Ministros antes del 29-N con medidas sociales y permiso de nacimiento de 20 semanas"
     },
     "clasificado": true
   },
@@ -49,30 +49,30 @@
     "headline": "Sánchez sigue apurando antes de las elecciones: el Gobierno aprueba extender el permiso por nacimiento a 20 semanas",
     "tematica": "Política nacional",
     "historia": {
-      "id": "permiso-nacimiento",
-      "etiqueta": "Ampliación del permiso por nacimiento a 20 semanas"
+      "id": "consejo-ministros-medidas",
+      "etiqueta": "Último Consejo de Ministros antes del 29-N con medidas sociales y permiso de nacimiento de 20 semanas"
     },
     "clasificado": true
   },
   {
     "media": "El Confidencial",
     "mediaUrl": "https://www.elconfidencial.com",
-    "headline": "Moncloa apura la bala de los martes sociales con el impuesto a los bancos y la ampliación de permisos",
+    "headline": "Sánchez volverá a sacar su 'yo moderado' en el debate para convencer al indeciso de que no es \"un dictador o un psicópata\"",
     "tematica": "Política nacional",
     "historia": {
-      "id": "consejo-ministros-medidas",
-      "etiqueta": "Último Consejo de Ministros antes del 29-N con paquete de medidas sociales"
+      "id": "sanchez-debate-moderado",
+      "etiqueta": "Sánchez prepara el debate con imagen moderada"
     },
     "clasificado": true
   },
   {
     "media": "20minutos",
     "mediaUrl": "https://www.20minutos.es",
-    "headline": "Bruselas amenaza a España con un expediente por una desviación \"excesiva\" del gasto público",
-    "tematica": "Economía",
+    "headline": "El Gobierno amplía hasta las 20 semanas el permiso por nacimiento a solo cinco días del 29N",
+    "tematica": "Política nacional",
     "historia": {
-      "id": "bruselas-expediente",
-      "etiqueta": "Bruselas amenaza a España con expediente por exceso de gasto"
+      "id": "consejo-ministros-medidas",
+      "etiqueta": "Último Consejo de Ministros antes del 29-N con medidas sociales y permiso de nacimiento de 20 semanas"
     },
     "clasificado": true
   },
@@ -82,8 +82,8 @@
     "headline": "El Gobierno amplía a 20 semanas el permiso por nacimiento",
     "tematica": "Política nacional",
     "historia": {
-      "id": "permiso-nacimiento",
-      "etiqueta": "Ampliación del permiso por nacimiento a 20 semanas"
+      "id": "consejo-ministros-medidas",
+      "etiqueta": "Último Consejo de Ministros antes del 29-N con medidas sociales y permiso de nacimiento de 20 semanas"
     },
     "clasificado": true
   },
@@ -94,18 +94,18 @@
     "tematica": "Política nacional",
     "historia": {
       "id": "consejo-ministros-medidas",
-      "etiqueta": "Último Consejo de Ministros antes del 29-N con paquete de medidas sociales"
+      "etiqueta": "Último Consejo de Ministros antes del 29-N con medidas sociales y permiso de nacimiento de 20 semanas"
     },
     "clasificado": true
   },
   {
     "media": "El Periódico",
     "mediaUrl": "https://www.elperiodico.com/es/",
-    "headline": "Catalunya inicia la desescalada de la peste porcina tras un año de restricciones y millones de pérdidas económicas",
-    "tematica": "Clima y medio ambiente",
+    "headline": "Más de la mitad de los feminicidios de 2026 se han cometido tras la ruptura: \"Cuando ven que hacen su vida, deciden matarlas\"",
+    "tematica": "Sociedad",
     "historia": {
-      "id": "peste-porcina",
-      "etiqueta": "Desescalada de la peste porcina en Cataluña"
+      "id": "feminicidios-ruptura",
+      "etiqueta": "Feminicidios de 2026 tras la ruptura de pareja"
     },
     "clasificado": true
   },
@@ -115,8 +115,8 @@
     "headline": "Pedro Sánchez: \"No estoy seguro de si PP y Vox van a aceptar el veredicto de las urnas\"",
     "tematica": "Política nacional",
     "historia": {
-      "id": "entrevista-sanchez",
-      "etiqueta": "Entrevista a Pedro Sánchez sobre el veredicto de las urnas"
+      "id": "sanchez-veredicto-urnas",
+      "etiqueta": "Entrevista a Sánchez sobre si PP y Vox aceptarán el resultado electoral"
     },
     "clasificado": true
   },
@@ -126,8 +126,8 @@
     "headline": "\"Por cada asesinada debería pararse el mundo\": las víctimas exigen un sistema fuerte contra la violencia",
     "tematica": "Sociedad",
     "historia": {
-      "id": "violencia-genero",
-      "etiqueta": "Víctimas piden un sistema fuerte contra la violencia de género"
+      "id": "violencia-genero-victimas",
+      "etiqueta": "Víctimas exigen un sistema fuerte contra la violencia machista"
     },
     "clasificado": true
   }
