@@ -2,33 +2,33 @@
   {
     "media": "El Español",
     "mediaUrl": "https://www.elespanol.com",
-    "headline": "Los peritos de Adamuz apuntan como causa a una soldadura mal hecha: la vía no se revisó en 2 meses pese a crecer el bache",
-    "tematica": "Tribunales y sucesos",
+    "headline": "Clavijo declara la emergencia sanitaria y de seguridad en El Hierro y solicita el apoyo de la UME por la crisis migratoria",
+    "tematica": "Sociedad",
     "historia": {
-      "id": "adamuz-peritos",
-      "etiqueta": "Peritos señalan una soldadura defectuosa en el accidente de Adamuz"
+      "id": "hierro-emergencia",
+      "etiqueta": "Emergencia en El Hierro por la crisis migratoria"
     },
     "clasificado": true
   },
   {
     "media": "El Mundo",
     "mediaUrl": "https://www.elmundo.es",
-    "headline": "El PP promete 'pantallas cero' en los primeros años de la escuela: \"Los libros y el cuaderno volverán a ser las herramientas prioritarias\"",
+    "headline": "Feijóo: \"El cambio es recuperar la ambición del país y la esperanza de los jóvenes\"",
     "tematica": "Política nacional",
     "historia": {
-      "id": "pp-pantallas-cero",
-      "etiqueta": "El PP promete pantallas cero en la escuela"
+      "id": "feijoo-cierre-campana",
+      "etiqueta": "Feijóo pide culminar el cambio en la recta final de la campaña"
     },
     "clasificado": true
   },
   {
     "media": "El País",
     "mediaUrl": "https://elpais.com",
-    "headline": "Puigdemont anuncia que regresará a Barcelona el sábado 12 de diciembre “sin pedir perdón ni permiso”",
-    "tematica": "Política nacional",
+    "headline": "Decenas de miles de personas llenan las calles en un 25-N marcado por la campaña: “Hay que salir. Hay políticos que niegan la violencia de género”",
+    "tematica": "Sociedad",
     "historia": {
-      "id": "puigdemont-regreso",
-      "etiqueta": "Puigdemont anuncia su regreso a España el 12 de diciembre"
+      "id": "25n-manifestaciones",
+      "etiqueta": "Manifestaciones del 25-N contra la violencia machista"
     },
     "clasificado": true
   },
@@ -38,96 +38,96 @@
     "headline": "Los consulados 'fabricaron' sobres y papeletas para el voto exterior al no llegarles a tiempo los del 29N",
     "tematica": "Política nacional",
     "historia": {
-      "id": "voto-exterior-sobres",
-      "etiqueta": "Consulados improvisan sobres y papeletas para el voto exterior"
+      "id": "voto-exterior-consulados",
+      "etiqueta": "Problemas con sobres y papeletas del voto exterior"
     },
     "clasificado": true
   },
   {
     "media": "La Razón",
     "mediaUrl": "https://www.larazon.es",
-    "headline": "Puigdemont regresará el 12 de diciembre y seguirá \"comprometido\" con la independencia: \"España ha perdido\"",
+    "headline": "Feijóo clama contra la resignación: «Vamos a derribar el muro sectario de Sánchez, ladrillo a ladrillo, voto a voto»",
     "tematica": "Política nacional",
     "historia": {
-      "id": "puigdemont-regreso",
-      "etiqueta": "Puigdemont anuncia su regreso a España el 12 de diciembre"
+      "id": "feijoo-cierre-campana",
+      "etiqueta": "Feijóo pide culminar el cambio en la recta final de la campaña"
     },
     "clasificado": true
   },
   {
     "media": "El Confidencial",
     "mediaUrl": "https://www.elconfidencial.com",
-    "headline": "Núñez Feijóo: \"Si alguna vez pierdo la cabeza y me comporto como Sánchez, que me echen del partido\"",
+    "headline": "Feijóo pelea contra el exceso de confianza y apela a los indecisos: \"El cambio está cerca, pero hay que culminarlo\"",
     "tematica": "Política nacional",
     "historia": {
-      "id": "feijoo-perder-cabeza",
-      "etiqueta": "Declaraciones de Feijóo sobre Sánchez en campaña"
+      "id": "feijoo-cierre-campana",
+      "etiqueta": "Feijóo pide culminar el cambio en la recta final de la campaña"
     },
     "clasificado": true
   },
   {
     "media": "20minutos",
     "mediaUrl": "https://www.20minutos.es",
-    "headline": "Pedro Sánchez: \"Confié en las personas que no lo merecían, me equivoqué y he pedido perdón\"",
+    "headline": "Feijóo llama a culminar el cambio el domingo para que gane \"la decencia\": \"Echaremos a los delincuentes del Gobierno\"",
     "tematica": "Política nacional",
     "historia": {
-      "id": "sanchez-confie-equivoque",
-      "etiqueta": "Sánchez reconoce haberse equivocado al confiar en personas"
+      "id": "feijoo-cierre-campana",
+      "etiqueta": "Feijóo pide culminar el cambio en la recta final de la campaña"
     },
     "clasificado": true
   },
   {
     "media": "La Vanguardia",
     "mediaUrl": "https://www.lavanguardia.com",
-    "headline": "La estrategia de Feijóo y Sánchez para captar el voto útil enoja a sus aliados",
-    "tematica": "Política nacional",
+    "headline": "El 25-N toma las calles con una importante presencia política en la recta final de campaña",
+    "tematica": "Sociedad",
     "historia": {
-      "id": "voto-util",
-      "etiqueta": "Estrategias de Feijóo y Sánchez para captar el voto útil"
+      "id": "25n-manifestaciones",
+      "etiqueta": "Manifestaciones del 25-N contra la violencia machista"
     },
     "clasificado": true
   },
   {
     "media": "El Diario",
     "mediaUrl": "https://www.eldiario.es",
-    "headline": "El PP utiliza el día contra la violencia machista para cargar contra el Gobierno: “Le pusieron un piso a una puta”",
-    "tematica": "Política nacional",
+    "headline": "La justicia argentina sienta en el banquillo al número dos del Opus Dei por trata de mujeres y explotación laboral",
+    "tematica": "Tribunales y sucesos",
     "historia": {
-      "id": "alvarez-toledo-piso",
-      "etiqueta": "Polémica por las palabras de Álvarez de Toledo en el 25N"
+      "id": "opus-dei-juicio",
+      "etiqueta": "Juicio en Argentina al número dos del Opus Dei por trata"
     },
     "clasificado": true
   },
   {
     "media": "El Periódico",
     "mediaUrl": "https://www.elperiodico.com/es/",
-    "headline": "Feijóo, ante su posible primera negociación de gobierno con el partido que quebró la hegemonía del PP",
+    "headline": "Sin consensos en vivienda y al choque con la inmigración: los candidatos catalanes exhiben sus diferencias en el debate de TV3",
     "tematica": "Política nacional",
     "historia": {
-      "id": "feijoo-negociacion-junts",
-      "etiqueta": "Feijóo ante una posible negociación de gobierno con Junts"
+      "id": "debate-tv3-catalunya",
+      "etiqueta": "Debate de candidatos catalanes en TV3"
     },
     "clasificado": true
   },
   {
     "media": "Público",
     "mediaUrl": "https://www.publico.es",
-    "headline": "Una jueza cita como investigados a Leire Díez y al expresidente de Correos en plena campaña electoral por una querella de Vox de hace un año",
-    "tematica": "Tribunales y sucesos",
+    "headline": "Las feministas se movilizan otro 25N en vísperas de las elecciones: \"¿Cuántas tienen que asesinar para que parezcan demasiadas?\"",
+    "tematica": "Sociedad",
     "historia": {
-      "id": "leire-diez-citada",
-      "etiqueta": "Jueza cita como investigados a Leire Díez y al expresidente de Correos"
+      "id": "25n-manifestaciones",
+      "etiqueta": "Manifestaciones del 25-N contra la violencia machista"
     },
     "clasificado": true
   },
   {
     "media": "Infolibre",
     "mediaUrl": "https://www.infolibre.es",
-    "headline": "Puigdemont regresará a España el próximo 12 de diciembre: \"Volveré sin pedir permiso ni perdón\"",
+    "headline": "Pedro Sánchez: \"Estamos tocando una mayoría progresista con los dedos, por eso apelo a una movilización inteligente\"",
     "tematica": "Política nacional",
     "historia": {
-      "id": "puigdemont-regreso",
-      "etiqueta": "Puigdemont anuncia su regreso a España el 12 de diciembre"
+      "id": "sanchez-mayoria-progresista",
+      "etiqueta": "Sánchez apela a la movilización para una mayoría progresista"
     },
     "clasificado": true
   }
