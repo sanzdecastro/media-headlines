@@ -1,0 +1,134 @@
+[
+  {
+    "media": "El Español",
+    "mediaUrl": "https://www.elespanol.com",
+    "headline": "Mandos de la Guardia Civil se reunieron en Marbella con el jefe de la Inteligencia marroquí el día antes del asalto a Ceuta",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "ceuta-inteligencia-marroqui",
+      "etiqueta": "Reunión de mandos de la Guardia Civil con el jefe de la Inteligencia marroquí antes del asalto a Ceuta"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "El Mundo",
+    "mediaUrl": "https://www.elmundo.es",
+    "headline": "Feijóo no atacará a Abascal en el debate y se centrará en Sánchez para \"convencer\" a los indecisos",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "debate-a-cuatro",
+      "etiqueta": "Preparación de Feijóo para el debate a cuatro de la campaña electoral"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "El País",
+    "mediaUrl": "https://elpais.com",
+    "headline": "Hernández de Cos se convertirá en febrero en el primer español en presidir el BCE",
+    "tematica": "Economía",
+    "historia": {
+      "id": "hernandez-de-cos-bce",
+      "etiqueta": "Hernández de Cos elegido presidente del BCE"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "ABC",
+    "mediaUrl": "https://www.abc.es",
+    "headline": "Los líderes europeos eligen a Hernández de Cos como nuevo presidente del BCE",
+    "tematica": "Economía",
+    "historia": {
+      "id": "hernandez-de-cos-bce",
+      "etiqueta": "Hernández de Cos elegido presidente del BCE"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "La Razón",
+    "mediaUrl": "https://www.larazon.es",
+    "headline": "Pablo Hernández de Cos, elegido presidente del BCE: se convierte en el primer español al frente de la institución",
+    "tematica": "Economía",
+    "historia": {
+      "id": "hernandez-de-cos-bce",
+      "etiqueta": "Hernández de Cos elegido presidente del BCE"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "El Confidencial",
+    "mediaUrl": "https://www.elconfidencial.com",
+    "headline": "Pablo Hernández de Cos, elegido como el primer presidente español del Banco Central Europeo",
+    "tematica": "Economía",
+    "historia": {
+      "id": "hernandez-de-cos-bce",
+      "etiqueta": "Hernández de Cos elegido presidente del BCE"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "20minutos",
+    "mediaUrl": "https://www.20minutos.es",
+    "headline": "El español Hernández De Cos hace historia tras ser elegido como nuevo presidente del BCE",
+    "tematica": "Economía",
+    "historia": {
+      "id": "hernandez-de-cos-bce",
+      "etiqueta": "Hernández de Cos elegido presidente del BCE"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "La Vanguardia",
+    "mediaUrl": "https://www.lavanguardia.com",
+    "headline": "El español Pablo Hernández de Cos será el próximo presidente del BCE",
+    "tematica": "Economía",
+    "historia": {
+      "id": "hernandez-de-cos-bce",
+      "etiqueta": "Hernández de Cos elegido presidente del BCE"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "El Diario",
+    "mediaUrl": "https://www.eldiario.es",
+    "headline": "El español Pablo Hernández de Cos, elegido presidente del BCE",
+    "tematica": "Economía",
+    "historia": {
+      "id": "hernandez-de-cos-bce",
+      "etiqueta": "Hernández de Cos elegido presidente del BCE"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "El Periódico",
+    "mediaUrl": "https://www.elperiodico.com/es/",
+    "headline": "La industria de la belleza encara su Black Friday más prometedor: casi la mitad de los compradores pretenden gastar en ella",
+    "tematica": "Economía",
+    "historia": {
+      "id": "black-friday-belleza",
+      "etiqueta": "Black Friday en la industria de la belleza"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "Público",
+    "mediaUrl": "https://www.publico.es",
+    "headline": "Ada Colau: \"Ojalá los fondos buitre abandonen España algún día porque les hagamos la vida imposible\"",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "colau-entrevista-fondos-buitre",
+      "etiqueta": "Entrevista a Ada Colau sobre los fondos buitre"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "Infolibre",
+    "mediaUrl": "https://www.infolibre.es",
+    "headline": "Cuando la batalla por el último escaño es clave para optimizar el voto progresista",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "voto-progresista-ultimo-escano",
+      "etiqueta": "Batalla por el último escaño y el voto progresista"
+    },
+    "clasificado": true
+  }
+]
