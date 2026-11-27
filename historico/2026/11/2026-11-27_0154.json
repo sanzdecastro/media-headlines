@@ -1,0 +1,134 @@
+[
+  {
+    "media": "El Español",
+    "mediaUrl": "https://www.elespanol.com",
+    "headline": "Feijóo vuelve a golpear a un Sánchez más agresivo, Abascal se aferra a la inmigración y Colau se separa algo del PSOE",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "debate-cuatro",
+      "etiqueta": "Debate electoral a cuatro entre Sánchez, Feijóo, Abascal y Colau"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "El Mundo",
+    "mediaUrl": "https://www.elmundo.es",
+    "headline": "Feijóo resiste los ataques de la pinza de Sánchez y Colau con Abascal por libre",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "debate-cuatro",
+      "etiqueta": "Debate electoral a cuatro entre Sánchez, Feijóo, Abascal y Colau"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "El País",
+    "mediaUrl": "https://elpais.com",
+    "headline": "Debate electoral 29-N a cuatro, en directo | Sánchez cambia de estrategia en el segundo debate y pasa al ataque: “A otro perro con ese hueso”",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "debate-cuatro",
+      "etiqueta": "Debate electoral a cuatro entre Sánchez, Feijóo, Abascal y Colau"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "ABC",
+    "mediaUrl": "https://www.abc.es",
+    "headline": "Feijóo y Abascal presentan la alternativa al sanchismo en un debate que deja todo igual",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "debate-cuatro",
+      "etiqueta": "Debate electoral a cuatro entre Sánchez, Feijóo, Abascal y Colau"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "La Razón",
+    "mediaUrl": "https://www.larazon.es",
+    "headline": "Feijóo dibuja el cambio y Colau eclipsa a Sánchez",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "debate-cuatro",
+      "etiqueta": "Debate electoral a cuatro entre Sánchez, Feijóo, Abascal y Colau"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "El Confidencial",
+    "mediaUrl": "https://www.elconfidencial.com",
+    "headline": "Sánchez cosecha otra derrota mientras Colau busca su sitio y las derechas se divierten en el debate a cuatro",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "debate-cuatro",
+      "etiqueta": "Debate electoral a cuatro entre Sánchez, Feijóo, Abascal y Colau"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "20minutos",
+    "mediaUrl": "https://www.20minutos.es",
+    "headline": "Sánchez y Feijóo mantienen su pulso en un debate áspero con un Abascal duro y una Colau incisiva",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "debate-cuatro",
+      "etiqueta": "Debate electoral a cuatro entre Sánchez, Feijóo, Abascal y Colau"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "La Vanguardia",
+    "mediaUrl": "https://www.lavanguardia.com",
+    "headline": "El tándem Sánchez-Colau contrarresta la ofensiva de Feijóo y Abascal",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "debate-cuatro",
+      "etiqueta": "Debate electoral a cuatro entre Sánchez, Feijóo, Abascal y Colau"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "El Diario",
+    "mediaUrl": "https://www.eldiario.es",
+    "headline": "Sánchez y Colau se lanzan en tándem contra “los bulos y recortes” de PP y Vox mientras Feijóo y Abascal se ignoran",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "debate-cuatro",
+      "etiqueta": "Debate electoral a cuatro entre Sánchez, Feijóo, Abascal y Colau"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "El Periódico",
+    "mediaUrl": "https://www.elperiodico.com/es/",
+    "headline": "La sintonía de Sánchez y Colau contrasta con la distancia de Feijóo y Abascal",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "debate-cuatro",
+      "etiqueta": "Debate electoral a cuatro entre Sánchez, Feijóo, Abascal y Colau"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "Público",
+    "mediaUrl": "https://www.publico.es",
+    "headline": "Sánchez y Colau arrinconan a un Feijóo desbordado y sin respuestas",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "debate-cuatro",
+      "etiqueta": "Debate electoral a cuatro entre Sánchez, Feijóo, Abascal y Colau"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "Infolibre",
+    "mediaUrl": "https://www.infolibre.es",
+    "headline": "Sánchez y Colau, tándem de izquierdas ante un Feijóo y Abascal que evitan el choque pero no sintonizan",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "debate-cuatro",
+      "etiqueta": "Debate electoral a cuatro entre Sánchez, Feijóo, Abascal y Colau"
+    },
+    "clasificado": true
+  }
+]

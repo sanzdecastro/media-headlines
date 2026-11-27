@@ -2,132 +2,132 @@
   {
     "media": "El Español",
     "mediaUrl": "https://www.elespanol.com",
-    "headline": "Mandos de la Guardia Civil se reunieron en Marbella con el jefe de la Inteligencia marroquí el día antes del asalto a Ceuta",
+    "headline": "Feijóo vuelve a golpear a un Sánchez más agresivo, Abascal se aferra a la inmigración y Colau se separa algo del PSOE",
     "tematica": "Política nacional",
     "historia": {
-      "id": "ceuta-inteligencia-marroqui",
-      "etiqueta": "Reunión de mandos de la Guardia Civil con el jefe de la Inteligencia marroquí antes del asalto a Ceuta"
+      "id": "debate-cuatro",
+      "etiqueta": "Debate electoral a cuatro entre Sánchez, Feijóo, Abascal y Colau"
     },
     "clasificado": true
   },
   {
     "media": "El Mundo",
     "mediaUrl": "https://www.elmundo.es",
-    "headline": "Feijóo no atacará a Abascal en el debate y se centrará en Sánchez para \"convencer\" a los indecisos",
+    "headline": "Feijóo resiste los ataques de la pinza de Sánchez y Colau con Abascal por libre",
     "tematica": "Política nacional",
     "historia": {
-      "id": "debate-a-cuatro",
-      "etiqueta": "Preparación de Feijóo para el debate a cuatro de la campaña electoral"
+      "id": "debate-cuatro",
+      "etiqueta": "Debate electoral a cuatro entre Sánchez, Feijóo, Abascal y Colau"
     },
     "clasificado": true
   },
   {
     "media": "El País",
     "mediaUrl": "https://elpais.com",
-    "headline": "Hernández de Cos se convertirá en febrero en el primer español en presidir el BCE",
-    "tematica": "Economía",
+    "headline": "Debate electoral 29-N a cuatro, en directo | Sánchez cambia de estrategia en el segundo debate y pasa al ataque: “A otro perro con ese hueso”",
+    "tematica": "Política nacional",
     "historia": {
-      "id": "hernandez-de-cos-bce",
-      "etiqueta": "Hernández de Cos elegido presidente del BCE"
+      "id": "debate-cuatro",
+      "etiqueta": "Debate electoral a cuatro entre Sánchez, Feijóo, Abascal y Colau"
     },
     "clasificado": true
   },
   {
     "media": "ABC",
     "mediaUrl": "https://www.abc.es",
-    "headline": "Los líderes europeos eligen a Hernández de Cos como nuevo presidente del BCE",
-    "tematica": "Economía",
+    "headline": "Feijóo y Abascal presentan la alternativa al sanchismo en un debate que deja todo igual",
+    "tematica": "Política nacional",
     "historia": {
-      "id": "hernandez-de-cos-bce",
-      "etiqueta": "Hernández de Cos elegido presidente del BCE"
+      "id": "debate-cuatro",
+      "etiqueta": "Debate electoral a cuatro entre Sánchez, Feijóo, Abascal y Colau"
     },
     "clasificado": true
   },
   {
     "media": "La Razón",
     "mediaUrl": "https://www.larazon.es",
-    "headline": "Pablo Hernández de Cos, elegido presidente del BCE: se convierte en el primer español al frente de la institución",
-    "tematica": "Economía",
+    "headline": "Feijóo dibuja el cambio y Colau eclipsa a Sánchez",
+    "tematica": "Política nacional",
     "historia": {
-      "id": "hernandez-de-cos-bce",
-      "etiqueta": "Hernández de Cos elegido presidente del BCE"
+      "id": "debate-cuatro",
+      "etiqueta": "Debate electoral a cuatro entre Sánchez, Feijóo, Abascal y Colau"
     },
     "clasificado": true
   },
   {
     "media": "El Confidencial",
     "mediaUrl": "https://www.elconfidencial.com",
-    "headline": "Pablo Hernández de Cos, elegido como el primer presidente español del Banco Central Europeo",
-    "tematica": "Economía",
+    "headline": "Sánchez cosecha otra derrota mientras Colau busca su sitio y las derechas se divierten en el debate a cuatro",
+    "tematica": "Política nacional",
     "historia": {
-      "id": "hernandez-de-cos-bce",
-      "etiqueta": "Hernández de Cos elegido presidente del BCE"
+      "id": "debate-cuatro",
+      "etiqueta": "Debate electoral a cuatro entre Sánchez, Feijóo, Abascal y Colau"
     },
     "clasificado": true
   },
   {
     "media": "20minutos",
     "mediaUrl": "https://www.20minutos.es",
-    "headline": "El español Hernández De Cos hace historia tras ser elegido como nuevo presidente del BCE",
-    "tematica": "Economía",
+    "headline": "Sánchez y Feijóo mantienen su pulso en un debate áspero con un Abascal duro y una Colau incisiva",
+    "tematica": "Política nacional",
     "historia": {
-      "id": "hernandez-de-cos-bce",
-      "etiqueta": "Hernández de Cos elegido presidente del BCE"
+      "id": "debate-cuatro",
+      "etiqueta": "Debate electoral a cuatro entre Sánchez, Feijóo, Abascal y Colau"
     },
     "clasificado": true
   },
   {
     "media": "La Vanguardia",
     "mediaUrl": "https://www.lavanguardia.com",
-    "headline": "El español Pablo Hernández de Cos será el próximo presidente del BCE",
-    "tematica": "Economía",
+    "headline": "El tándem Sánchez-Colau contrarresta la ofensiva de Feijóo y Abascal",
+    "tematica": "Política nacional",
     "historia": {
-      "id": "hernandez-de-cos-bce",
-      "etiqueta": "Hernández de Cos elegido presidente del BCE"
+      "id": "debate-cuatro",
+      "etiqueta": "Debate electoral a cuatro entre Sánchez, Feijóo, Abascal y Colau"
     },
     "clasificado": true
   },
   {
     "media": "El Diario",
     "mediaUrl": "https://www.eldiario.es",
-    "headline": "El español Pablo Hernández de Cos, elegido presidente del BCE",
-    "tematica": "Economía",
+    "headline": "Sánchez y Colau se lanzan en tándem contra “los bulos y recortes” de PP y Vox mientras Feijóo y Abascal se ignoran",
+    "tematica": "Política nacional",
     "historia": {
-      "id": "hernandez-de-cos-bce",
-      "etiqueta": "Hernández de Cos elegido presidente del BCE"
+      "id": "debate-cuatro",
+      "etiqueta": "Debate electoral a cuatro entre Sánchez, Feijóo, Abascal y Colau"
     },
     "clasificado": true
   },
   {
     "media": "El Periódico",
     "mediaUrl": "https://www.elperiodico.com/es/",
-    "headline": "La industria de la belleza encara su Black Friday más prometedor: casi la mitad de los compradores pretenden gastar en ella",
-    "tematica": "Economía",
+    "headline": "La sintonía de Sánchez y Colau contrasta con la distancia de Feijóo y Abascal",
+    "tematica": "Política nacional",
     "historia": {
-      "id": "black-friday-belleza",
-      "etiqueta": "Black Friday en la industria de la belleza"
+      "id": "debate-cuatro",
+      "etiqueta": "Debate electoral a cuatro entre Sánchez, Feijóo, Abascal y Colau"
     },
     "clasificado": true
   },
   {
     "media": "Público",
     "mediaUrl": "https://www.publico.es",
-    "headline": "Ada Colau: \"Ojalá los fondos buitre abandonen España algún día porque les hagamos la vida imposible\"",
+    "headline": "Sánchez y Colau arrinconan a un Feijóo desbordado y sin respuestas",
     "tematica": "Política nacional",
     "historia": {
-      "id": "colau-entrevista-fondos-buitre",
-      "etiqueta": "Entrevista a Ada Colau sobre los fondos buitre"
+      "id": "debate-cuatro",
+      "etiqueta": "Debate electoral a cuatro entre Sánchez, Feijóo, Abascal y Colau"
     },
     "clasificado": true
   },
   {
     "media": "Infolibre",
     "mediaUrl": "https://www.infolibre.es",
-    "headline": "Cuando la batalla por el último escaño es clave para optimizar el voto progresista",
+    "headline": "Sánchez y Colau, tándem de izquierdas ante un Feijóo y Abascal que evitan el choque pero no sintonizan",
     "tematica": "Política nacional",
     "historia": {
-      "id": "voto-progresista-ultimo-escano",
-      "etiqueta": "Batalla por el último escaño y el voto progresista"
+      "id": "debate-cuatro",
+      "etiqueta": "Debate electoral a cuatro entre Sánchez, Feijóo, Abascal y Colau"
     },
     "clasificado": true
   }
