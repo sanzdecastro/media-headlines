@@ -2,121 +2,121 @@
   {
     "media": "El Español",
     "mediaUrl": "https://www.elespanol.com",
-    "headline": "Feijóo vuelve a golpear a un Sánchez más agresivo, Abascal se aferra a la inmigración y Colau se separa algo del PSOE",
+    "headline": "Un confidente declara que el prefecto de Policía de Tetuán, El Oualidi, le anunció el \"asalto masivo\" a Ceuta 20 días antes",
     "tematica": "Política nacional",
     "historia": {
-      "id": "debate-cuatro",
-      "etiqueta": "Debate electoral a cuatro entre Sánchez, Feijóo, Abascal y Colau"
+      "id": "ceuta-asalto-testigo",
+      "etiqueta": "Testigo declara que un jefe policial marroquí anunció el asalto masivo a Ceuta"
     },
     "clasificado": true
   },
   {
     "media": "El Mundo",
     "mediaUrl": "https://www.elmundo.es",
-    "headline": "Feijóo resiste los ataques de la pinza de Sánchez y Colau con Abascal por libre",
+    "headline": "Un testigo protegido declara a la juez que el jefe de la Policía marroquí de Tetuán le anunció la oleada migratoria: \"Ya viene el asalto final\"",
     "tematica": "Política nacional",
     "historia": {
-      "id": "debate-cuatro",
-      "etiqueta": "Debate electoral a cuatro entre Sánchez, Feijóo, Abascal y Colau"
+      "id": "ceuta-asalto-testigo",
+      "etiqueta": "Testigo declara que un jefe policial marroquí anunció el asalto masivo a Ceuta"
     },
     "clasificado": true
   },
   {
     "media": "El País",
     "mediaUrl": "https://elpais.com",
-    "headline": "Debate electoral 29-N a cuatro, en directo | Sánchez cambia de estrategia en el segundo debate y pasa al ataque: “A otro perro con ese hueso”",
+    "headline": "Sánchez confía en revalidar el Gobierno progresista sin depender de Junts y Feijóo insiste en que los socios del PSOE han estado “calladitos y calladitas”",
     "tematica": "Política nacional",
     "historia": {
-      "id": "debate-cuatro",
-      "etiqueta": "Debate electoral a cuatro entre Sánchez, Feijóo, Abascal y Colau"
+      "id": "calladita-feijoo-colau",
+      "etiqueta": "Polémica por el 'calladita' de Feijóo a Colau en el cierre de campaña"
     },
     "clasificado": true
   },
   {
     "media": "ABC",
     "mediaUrl": "https://www.abc.es",
-    "headline": "Feijóo y Abascal presentan la alternativa al sanchismo en un debate que deja todo igual",
+    "headline": "Abascal: «Vox sigue pensando que el Estado autonómico es un fracaso. Pero estamos en el realismo político»",
     "tematica": "Política nacional",
     "historia": {
-      "id": "debate-cuatro",
-      "etiqueta": "Debate electoral a cuatro entre Sánchez, Feijóo, Abascal y Colau"
+      "id": "abascal-estado-autonomico",
+      "etiqueta": "Declaraciones de Abascal sobre el Estado autonómico"
     },
     "clasificado": true
   },
   {
     "media": "La Razón",
     "mediaUrl": "https://www.larazon.es",
-    "headline": "Feijóo dibuja el cambio y Colau eclipsa a Sánchez",
+    "headline": "El PP denuncia \"irregularidades\" en el voto por correo y el reparto de su propaganda electoral",
     "tematica": "Política nacional",
     "historia": {
-      "id": "debate-cuatro",
-      "etiqueta": "Debate electoral a cuatro entre Sánchez, Feijóo, Abascal y Colau"
+      "id": "pp-voto-correo",
+      "etiqueta": "El PP denuncia irregularidades en el voto por correo"
     },
     "clasificado": true
   },
   {
     "media": "El Confidencial",
     "mediaUrl": "https://www.elconfidencial.com",
-    "headline": "Sánchez cosecha otra derrota mientras Colau busca su sitio y las derechas se divierten en el debate a cuatro",
+    "headline": "La Comisión Europea cuestiona la \"prioridad nacional\" de Vox porque vulneraría la ley de la UE",
     "tematica": "Política nacional",
     "historia": {
-      "id": "debate-cuatro",
-      "etiqueta": "Debate electoral a cuatro entre Sánchez, Feijóo, Abascal y Colau"
+      "id": "bruselas-prioridad-nacional",
+      "etiqueta": "Bruselas cuestiona la 'prioridad nacional' de Vox"
     },
     "clasificado": true
   },
   {
     "media": "20minutos",
     "mediaUrl": "https://www.20minutos.es",
-    "headline": "Sánchez y Feijóo mantienen su pulso en un debate áspero con un Abascal duro y una Colau incisiva",
-    "tematica": "Política nacional",
+    "headline": "La polémica foto del adiós de Marc Márquez: los pilotos del equipo de Rossi y su hermano, ausentes",
+    "tematica": "Deportes",
     "historia": {
-      "id": "debate-cuatro",
-      "etiqueta": "Debate electoral a cuatro entre Sánchez, Feijóo, Abascal y Colau"
+      "id": "marquez-retirada",
+      "etiqueta": "Marc Márquez anuncia su retirada de MotoGP"
     },
     "clasificado": true
   },
   {
     "media": "La Vanguardia",
     "mediaUrl": "https://www.lavanguardia.com",
-    "headline": "El tándem Sánchez-Colau contrarresta la ofensiva de Feijóo y Abascal",
-    "tematica": "Política nacional",
+    "headline": "Marc Márquez anuncia por sorpresa su retirada de MotoGP",
+    "tematica": "Deportes",
     "historia": {
-      "id": "debate-cuatro",
-      "etiqueta": "Debate electoral a cuatro entre Sánchez, Feijóo, Abascal y Colau"
+      "id": "marquez-retirada",
+      "etiqueta": "Marc Márquez anuncia su retirada de MotoGP"
     },
     "clasificado": true
   },
   {
     "media": "El Diario",
     "mediaUrl": "https://www.eldiario.es",
-    "headline": "Sánchez y Colau se lanzan en tándem contra “los bulos y recortes” de PP y Vox mientras Feijóo y Abascal se ignoran",
+    "headline": "El “y usted, calladita” de Feijóo a Colau impacta en el final de la campaña y el PP lo defiende: “Manosean el feminismo”",
     "tematica": "Política nacional",
     "historia": {
-      "id": "debate-cuatro",
-      "etiqueta": "Debate electoral a cuatro entre Sánchez, Feijóo, Abascal y Colau"
+      "id": "calladita-feijoo-colau",
+      "etiqueta": "Polémica por el 'calladita' de Feijóo a Colau en el cierre de campaña"
     },
     "clasificado": true
   },
   {
     "media": "El Periódico",
     "mediaUrl": "https://www.elperiodico.com/es/",
-    "headline": "La sintonía de Sánchez y Colau contrasta con la distancia de Feijóo y Abascal",
-    "tematica": "Política nacional",
+    "headline": "Los camiones están implicados en tres de cada diez accidentes con víctimas que ocurren en la AP-7",
+    "tematica": "Sociedad",
     "historia": {
-      "id": "debate-cuatro",
-      "etiqueta": "Debate electoral a cuatro entre Sánchez, Feijóo, Abascal y Colau"
+      "id": "camiones-ap7",
+      "etiqueta": "Camiones implicados en accidentes en la AP-7"
     },
     "clasificado": true
   },
   {
     "media": "Público",
     "mediaUrl": "https://www.publico.es",
-    "headline": "Sánchez y Colau arrinconan a un Feijóo desbordado y sin respuestas",
+    "headline": "El \"y usted calladita\" de Feijóo agita el cierre de campaña y moviliza a las izquierdas",
     "tematica": "Política nacional",
     "historia": {
-      "id": "debate-cuatro",
-      "etiqueta": "Debate electoral a cuatro entre Sánchez, Feijóo, Abascal y Colau"
+      "id": "calladita-feijoo-colau",
+      "etiqueta": "Polémica por el 'calladita' de Feijóo a Colau en el cierre de campaña"
     },
     "clasificado": true
   },
@@ -126,8 +126,8 @@
     "headline": "Sánchez y Colau, tándem de izquierdas ante un Feijóo y Abascal que evitan el choque pero no sintonizan",
     "tematica": "Política nacional",
     "historia": {
-      "id": "debate-cuatro",
-      "etiqueta": "Debate electoral a cuatro entre Sánchez, Feijóo, Abascal y Colau"
+      "id": "debate-cuatro-sanchez-colau",
+      "etiqueta": "Análisis del debate a cuatro entre candidatos"
     },
     "clasificado": true
   }
