@@ -1,0 +1,129 @@
+[
+  {
+    "media": "El Español",
+    "mediaUrl": "https://www.elespanol.com",
+    "headline": "Un confidente declara que el prefecto de Policía de Tetuán, El Oualidi, le anunció el \"asalto masivo\" a Ceuta 20 días antes",
+    "tematica": "Tribunales y sucesos",
+    "historia": {
+      "id": "ceuta-asalto-confidente",
+      "etiqueta": "Un confidente declara sobre el aviso del asalto masivo a Ceuta"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "El Mundo",
+    "mediaUrl": "https://www.elmundo.es",
+    "headline": "Los partidos cierran una campaña de un 29-N en el que se elige desde la trinchera: cambio de Gobierno, sí o no",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "cierre-campana-29n",
+      "etiqueta": "Cierre de la campaña de las elecciones generales del 29-N"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "El País",
+    "mediaUrl": "https://elpais.com",
+    "headline": "Sánchez culmina su sexta campaña con el mitin más multitudinario de su trayectoria: “Tenemos la mayoría progresista a la vista, ¡sí se puede!”",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "cierre-campana-29n",
+      "etiqueta": "Cierre de la campaña de las elecciones generales del 29-N"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "ABC",
+    "mediaUrl": "https://www.abc.es",
+    "headline": "Feijóo, en Sevilla: «Si el domingo votamos todos juntos, se acabó. Pido el voto de la izquierda»",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "feijoo-cierre-sevilla",
+      "etiqueta": "Feijóo cierra la campaña en Sevilla pidiendo el voto también a la izquierda"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "La Razón",
+    "mediaUrl": "https://www.larazon.es",
+    "headline": "Feijóo cierra la campaña electoral en Sevilla: \"Esta vez sí vamos a conseguirlo\"",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "feijoo-cierre-sevilla",
+      "etiqueta": "Feijóo cierra la campaña en Sevilla pidiendo el voto también a la izquierda"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "El Confidencial",
+    "mediaUrl": "https://www.elconfidencial.com",
+    "headline": "Feijóo llama a concentrar el voto de \"cabreo\" en el PP para \"el cambio\": \"Esta vez sí gobernaremos\"",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "feijoo-cierre-sevilla",
+      "etiqueta": "Feijóo cierra la campaña en Sevilla pidiendo el voto también a la izquierda"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "20minutos",
+    "mediaUrl": "https://www.20minutos.es",
+    "headline": "[No encontrado]",
+    "clasificado": false
+  },
+  {
+    "media": "La Vanguardia",
+    "mediaUrl": "https://www.lavanguardia.com",
+    "headline": "Feijóo apela al votante crítico del PSOE en Sevilla: “No os pido que cambiéis de ideología”",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "feijoo-cierre-sevilla",
+      "etiqueta": "Feijóo cierra la campaña en Sevilla pidiendo el voto también a la izquierda"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "El Diario",
+    "mediaUrl": "https://www.eldiario.es",
+    "headline": "La izquierda cierra la campaña ilusionada por la “remontada” con PP y Vox seguros de poder gobernar pese a los patinazos",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "cierre-campana-29n",
+      "etiqueta": "Cierre de la campaña de las elecciones generales del 29-N"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "El Periódico",
+    "mediaUrl": "https://www.elperiodico.com/es/",
+    "headline": "Los candidatos empujan una movilización “clave” en un cierre de campaña con la batalla por el voto útil dentro de los dos bloques",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "cierre-campana-29n",
+      "etiqueta": "Cierre de la campaña de las elecciones generales del 29-N"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "Público",
+    "mediaUrl": "https://www.publico.es",
+    "headline": "Sánchez se crece en el cierre de campaña y llama a \"hacer historia\" frente a la \"involución\" de PP y Vox",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "sanchez-cierre-madrid",
+      "etiqueta": "Sánchez cierra la campaña con un gran mitin en Madrid"
+    },
+    "clasificado": true
+  },
+  {
+    "media": "Infolibre",
+    "mediaUrl": "https://www.infolibre.es",
+    "headline": "Sánchez y Colau, tándem de izquierdas ante un Feijóo y Abascal que evitan el choque pero no sintonizan",
+    "tematica": "Política nacional",
+    "historia": {
+      "id": "debate-sanchez-colau-feijoo",
+      "etiqueta": "Sánchez y Colau frente a Feijóo y Abascal en la recta final"
+    },
+    "clasificado": true
+  }
+]
